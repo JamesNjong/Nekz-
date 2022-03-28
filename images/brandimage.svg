@@ -1,0 +1,13 @@
+<svg id="Component_156_1" data-name="Component 156 – 1" xmlns="http://www.w3.org/2000/svg" width="119.128" height="87" viewBox="0 0 119.128 87">
+  <g id="Group_2" data-name="Group 2">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="71" height="81" rx="35.5" fill="#151d3b"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="24" height="62" rx="12" transform="translate(60 12)" fill="#f7f7f7"/>
+    <path id="Rectangle_6" data-name="Rectangle 6" d="M12,0h0A12,12,0,0,1,24,12V62a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" transform="translate(23 23)" fill="#f7f7f7"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(66.147 19.342)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="15" height="49" rx="7.5" transform="translate(-0.147 -0.342)" fill="#151d3b"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="12" height="32" rx="6" transform="translate(21.853 7.658)" fill="#151d3b"/>
+      <path id="Path_209" data-name="Path 209" d="M6.286,0c3.471,0,6.286,2.308,6.286,5.155v10.31c0,2.847-2.814,5.155-6.286,5.155S0,18.312,0,15.465V5.155C0,2.308,2.814,0,6.286,0Z" transform="translate(40.409 12.079)" fill="#151d3b"/>
+    </g>
+  </g>
+  <text id="Nekz" transform="translate(69 81)" fill="#151d3b" font-size="20" font-family="Fira Code" font-weight="700"><tspan x="0" y="0">nekz</tspan></text>
+</svg>
