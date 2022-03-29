@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="451.677" height="361.005" viewBox="0 0 451.677 361.005">
+  <g id="Group_179" data-name="Group 179" transform="translate(-352 -222.5)">
+    <g id="Group_2" data-name="Group 2" transform="translate(352 222.5)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="269.199" height="344.016" rx="130" fill="#151d3b"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="90.997" height="263.321" rx="45.498" transform="translate(227.492 50.965)" fill="#fff"/>
+      <path id="Rectangle_6" data-name="Rectangle 6" d="M45.5,0h0A45.5,45.5,0,0,1,91,45.5V263.321a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V45.5A45.5,45.5,0,0,1,45.5,0Z" transform="translate(87.205 97.684)" fill="#fff"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(250.241 80.695)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="56.873" height="208.109" rx="23" transform="translate(0 0)" fill="#151d3b"/>
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="45.498" height="135.908" rx="22.749" transform="translate(83.414 33.977)" fill="#151d3b"/>
+        <path id="Path_209" data-name="Path 209" d="M23.832,0C36.994,0,47.664,9.8,47.664,21.894V65.681c0,12.092-10.67,21.894-23.832,21.894S0,77.773,0,65.681V21.894C0,9.8,10.67,0,23.832,0Z" transform="translate(153.771 52.753)" fill="#151d3b"/>
+      </g>
+    </g>
+    <text id="Nekz" transform="translate(629.346 565.037)" fill="#151d3b" font-size="56" font-family="Fira Code" font-weight="700"><tspan x="0" y="0">nekz</tspan></text>
+  </g>
+</svg>

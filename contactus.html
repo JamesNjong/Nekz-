@@ -12,7 +12,7 @@
 
 <!-- Custome style sheet-->
 <link rel="stylesheet" href="./styles/style.css">
-
+<link rel="stylesheet" href="./styles/formstyles.css">
 
 </head>
 
@@ -30,8 +30,12 @@
 
 
     <!-- Brand -->
-    <div class="brand d-flex justify-content-center align-items-center">
+    <div class="brand d-flex d-none justify-content-center align-items-center">
     <img src="./images/brandimage.svg" width="70"  alt="name-logo" class="img-fluid my-2" > 
+    </div>
+
+    <div class="button-controls d-lg-none d-md-none py-4">
+      <a href="./index.html" class="btn btn-service">GO TO HOME</a>
     </div>
 
 
@@ -51,17 +55,17 @@
 
 <ul class="navbar-nav  justify-content-end align-items-center">
     
-    <li class="nav-item d-lg-none d-md-none"><a href="./index.html" class="nav-link px-2 ">Home</a></li>
+    <li class="nav-item "><a href="./index.html" class="nav-link px-2 ">Home</a></li>
     
     <li class="nav-item"><a href="./about.html" class="nav-link px-2">About<a></li>
 
-    <li class="nav-item"><a href="./training.html" class="nav-link px-2 ">Our Training</a></li>
+    <li class="nav-item d-lg-none d-md-none"><a href="./training.html" class="nav-link px-2 ">Our Training</a></li>
         
-    <li class="nav-item"><a href="./forschools.html" class="nav-link px-2 ">For Schools</a></li>
+    <li class="nav-item d-lg-none d-md-none"><a href="./forschools.html" class="nav-link px-2 ">For Schools</a></li>
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./training.html" class="nav-link px-2 ">Our Services</a></li>
+    <li class="nav-item "><a href="./training.html" class="nav-link px-2 ">Our Services</a></li>
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./training.html" class="nav-link px-2 ">Contact us</a></li>
+    <li class="nav-item "><a href="./training.html" class="nav-link px-2 ">Contact us</a></li>
                     
 </ul>
     
@@ -72,25 +76,15 @@
     </header>
  
 
-    <div class="body-elements body-contact px-4">
-        <div class="taghead justify-content-center align-items-center">
-          <h1 class="headline display-1 text-center">Nekz</h1>
-          <p class="text-center display-5 py-6 iyt">it's your turn ! </p>
-          <hr/>
-        </div>
+    <div class="body-elements px-4">
+        <h1 class="headline">We are all about people, their dreams and emotions, and we cannot wait to meet you.</h1>
 
+        <p class=" py-6">We believe that lasting change cannot be an individual effort, that it takes a village to raise a child, that anyone who struggles should be aided. But these believes only compliment what truly matters to us, the experience of meeting new people, and the excitement of being useful to them.</p>
 
-        <p class="phone-paragraph my-4"> <img class="img-fluid  mx-4" src="./images/phone.svg" width="14" alt="phone icon"> +237 658 298 215</p>
-
-        <p class="email-paragraph"> <img class="img-fluid  mx-4" src="./images/messages.svg" width="14" alt="phone icon"> frontdesk@nekz.io</p>
-
-         
-
-        <div class="button-controls my-4 ">
-        <a href="./index.html" class="btn btn-service mx-5">Copy Number</a>
-
-        <a href="#services" class="btn btn-contact mx-5">Copy Email</a>
-        </div>
+        <div class="button-controls d-lg-none d-md-none py-4">
+      <a href="#" class="btn btn-email">frontdesk@nekz.io</a>
+      <a href="#" class="btn btn-phone">+237 568 298 215</a>
+    </div>
     </div>
 
     <span></span>
@@ -109,7 +103,7 @@
           </div>
 
           <div class="col-10 col-sm-8 col-lg-6"> 
-            <p class="service-para">Schools so often find it hard to say with certainty what the intake for the new year will be and thus cannot budget or plan ahead often because parents can</p>
+            <p class="service-para">From the comfort of your space, all you need is an email or a whatsapp, and we will come to you. We will actually run to you, because we just sit around all day everyday, waiting for someone like you to say hi, so we can blush and do great business thereafter.</p>
           </div>
 
           
@@ -120,11 +114,30 @@
       <div class="container col-xxl-12 px-4 py-2">
         <div class="row flex-lg-row-reverse justify-content-lg-end align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <img src="./images/contact_2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="./images/logo-white.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+
+            <p class="iyt display-3 text-center">it's  your turn !</p>
+             
           </div>
 
           <div class="col-10 col-sm-8 col-lg-6"> 
-            <p class="service-para">Our work allows for  school managers to get ahead of this problem by using advanced data analytics to identify expectations and avenues where the students need support</p>
+            
+              <div class="message-box"> 
+                <form>
+                  <div class="user-box">
+                      <input type="text" name="" required="" placeholder="Name">
+                      
+                  </div>
+                  <div class="user-box">
+                        <input type="email" name="" required="" placeholder="Email"> 
+                  </div>
+                  <div class="user-box">
+                    <textarea name="message" id="" cols="30" rows="3" placeholder="Write message . . ." ></textarea>
+                  </div>
+                  <a href="#">  Send </a>
+                </form>
+              </div>
+
           </div>
         </div>
       </div>
@@ -155,9 +168,9 @@
     
     <li class="nav-item"><a href="./about.html" class="nav-link  ">About<a></li> 
 
-    <li class="nav-item"><a href="./training.html" class="nav-link ">Services</a></li>
+    <li class="nav-item"><a href="./services.html" class="nav-link ">Services</a></li>
 
-    <li class="nav-item "><a href="./training.html" class="nav-link px-2 ">Contact us</a></li>
+    <li class="nav-item "><a href="./training.html" class="nav-link px-2 ">Our Training</a></li>
                     
 </ul>
 </div>

@@ -202,6 +202,40 @@ html {
       border-top: 1px solid $color-secondary;
       border-bottom: 1px solid $color-primary;
     }
+
+
+    //contact page buttons
+    .btn-email {
+      border-left: 1px solid $color-primary;
+      border-right: 1px solid $color-secondary;
+      border-radius: 2rem;
+      font-size: 12px;
+      font-weight: $fw-200;
+      text-align: center;
+      height: fit-content;
+    }
+
+    .btn-email:hover {
+      border-bottom: 1px solid $color-secondary;
+      border-top: 1px solid $color-primary;
+    }
+
+    .btn-phone {
+      border-right: 1px solid $color-primary;
+      border-left: 1px solid $color-secondary;
+      border-radius: 2rem;
+      font-size: 12px;
+      font-weight: $fw-200;
+      text-align: center;
+      height: fit-content;
+    }
+
+    .btn-phone:hover {
+      border-top: 1px solid $color-secondary;
+      border-bottom: 1px solid $color-primary;
+    }
+
+
   }
 }
 
