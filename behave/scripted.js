@@ -3,7 +3,7 @@ function sendEmail() {
     Host: "smtp.gmail.com",
     Username: "jamesberinyuy@gmail.com",
     Password: "formathematics",
-    To: "wanabi.info@gmail.com",
+    To: "jamesberinyuy@gmail.com",
     From: document.getElementById("email").value,
     Subject: "New Contact Form Inquiry : Nekz website",
     Body:
@@ -13,5 +13,7 @@ function sendEmail() {
       document.getElementById("email").value +
       "<br>" +
       getElementById("message").value,
-  }).then(message => alert(message));
+  }).then(
+    message => alert(message)
+  );
 }
