@@ -1,33 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;500;900&family=Dancing+Script&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;500;900&family=Dancing+Script&display=swap");
 
 //typography
-$font-primary: 'Archivo', sans-serif;
-$font-dance: 'Dancing Script', cursive;
+$font-primary: "Archivo", sans-serif;
+$font-dance: "Dancing Script", cursive;
 
+$fw-100: 100;
+$fw-200: 200;
+$fw-500: 500;
+$fw-900: 900;
 
-$fw-100:100;
-$fw-200: 200; 
-$fw-500:500; 
-$fw-900:900; 
+//colors
+$left-container-bg: #f7f7f7;
+$color-primary: #ff9924;
+$color-secondary: #1169ff;
 
-//colors 
-$left-container-bg: #F7F7F7; 
-$color-primary: #FF9924;
-$color-secondary: #1169FF;
-
-
-
-
-
-body,html{ 
- max-width: 100vw; 
- font-family: $font-primary;
- font-weight: 100; 
+body,
+html {
+  max-width: 100vw;
+  font-family: $font-primary;
+  font-weight: 100;
 }
-
- 
-
 
 // NAVIGATION
 /* 
@@ -41,14 +33,13 @@ body,html{
 
 
 */
-.header-content { 
+.header-content {
   font-weight: $fw-200;
-  color: black;   
+  color: black;
   overflow: auto;
   z-index: 6;
-  padding:0;
+  padding: 0;
   overflow-x: hidden;
-
 
   //manage the hamburger
   .navbar-toggler {
@@ -73,12 +64,14 @@ body,html{
 
     .middle-bar {
       margin-top: 0px;
-      margin-left: 4px; 
+      margin-left: 4px;
     }
   }
 
   //clear out all default decorative button styles
-  .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active,
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
   .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
@@ -89,7 +82,14 @@ body,html{
   /* Color of 3 lines */
 
   .navbar-toggler.collapsed .toggler-icon {
-   background-image: linear-gradient(to right top, #012393, #0b2cab, #1535c4, #1e3fdd, #2649f7);
+    background-image: linear-gradient(
+      to right top,
+      #012393,
+      #0b2cab,
+      #1535c4,
+      #1e3fdd,
+      #2649f7
+    );
   }
 
   /* when navigation is clicked */
@@ -129,7 +129,7 @@ body,html{
     position: absolute;
     top: 10px;
     margin-left: 8px;
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
   }
 
   // item styles
@@ -148,236 +148,223 @@ body,html{
   .nav-link {
     color: #012393 !important;
   }
-   
+
   .nav-item:hover {
     color: #012393 !important;
-    border-bottom: 2px solid #012393; 
+    border-bottom: 2px solid #012393;
   }
 }
 
-
-
-
-
-
- 
-.left-container{
- padding-left: 20px;   
- background-color: $left-container-bg;
- display: flex;
- justify-content: space-between;
- flex-direction: column;
- height:100vh; 
- overflow-y: hidden; 
-
- .headline{
-  font-weight: $fw-900;
- }
-
- .button-controls{ 
+.left-container {
+  padding-left: 20px;
+  background-color: $left-container-bg;
   display: flex;
-  flex-direction:row; 
-  gap: 4px; 
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
 
-  .btn-service{
-   border-left: 1px solid $color-primary;
-   border-right: 1px solid $color-secondary;
-   border-radius: 2rem; 
-   font-size: 12px;
-   font-weight: $fw-200;
-   text-align: center;
-   height:fit-content;
+  .headline {
+    font-weight: $fw-900;
   }
 
-  .btn-service:hover{ 
-   border-bottom: 1px solid $color-secondary;
-   border-top: 1px solid $color-primary;
-  }
+  .button-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
 
-  .btn-contact{
-   border-right: 1px solid $color-primary;
-   border-left: 1px solid $color-secondary;
-   border-radius: 2rem;
-   font-size: 12px;
-   font-weight: $fw-200;
-   text-align: center;
-   height:fit-content;
-  }
+    .btn-service {
+      border-left: 1px solid $color-primary;
+      border-right: 1px solid $color-secondary;
+      border-radius: 2rem;
+      font-size: 12px;
+      font-weight: $fw-200;
+      text-align: center;
+      height: fit-content;
+    }
 
-  .btn-contact:hover{ 
-   border-top: 1px solid $color-secondary;
-   border-bottom: 1px solid $color-primary;
-  }
+    .btn-service:hover {
+      border-bottom: 1px solid $color-secondary;
+      border-top: 1px solid $color-primary;
+    }
 
- }
+    .btn-contact {
+      border-right: 1px solid $color-primary;
+      border-left: 1px solid $color-secondary;
+      border-radius: 2rem;
+      font-size: 12px;
+      font-weight: $fw-200;
+      text-align: center;
+      height: fit-content;
+    }
+
+    .btn-contact:hover {
+      border-top: 1px solid $color-secondary;
+      border-bottom: 1px solid $color-primary;
+    }
+  }
 }
 
-
-
-
-.right-container{
- padding-right: 20px;
- overflow-y: scroll;
- display:flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
-
- .col{
-  display:flex; 
-  flex-direction:column; 
-  justify-content: center;
+.right-container {
+  padding-right: 20px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
- }
- 
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
 }
-.word-card-1{
-   background-color: #F1E1A6;
-   height:300px;
-   max-width: 220px;
-   display: flex; 
-   align-items: center;
-   .card-text{
-     font-family: $font-dance;
-   }
+.word-card-1 {
+  background-color: #f1e1a6;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
- }
+.word-card-2 {
+  background-color: #c3e5ae;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
- .word-card-2{
-   background-color: #C3E5AE;
-   height:300px;
-   max-width: 220px;
-   display: flex;
-   margin-left: 20px;
-   align-items: center;
-   .card-text{
-     font-family: $font-dance;
-   }
+.word-card-3 {
+  background-color: #e5aee3;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
- }
+.word-card-1a {
+  background-color: #54bab9;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
-  .word-card-3{
-   background-color: #E5AEE3;
-   height:300px;
-   max-width: 220px;
-   display: flex;
-   align-items: center; 
-   .card-text{
-     font-family: $font-dance;
-   }
+.word-card-2a {
+  background-color: #ff8080;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
- }
+.word-card-3a {
+  background-color: #f1e1a6;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
-
-
-.word-card-1a{
-   background-color: #54BAB9;
-   height:300px;
-   max-width: 220px;
-   display: flex; 
-   align-items: center;
-   .card-text{
-     font-family: $font-dance;
-   }
-
- }
-
- .word-card-2a{
-   background-color: #FF8080;
-   height:300px;
-   max-width: 220px;
-   display: flex;
-   margin-left: 20px;
-   align-items: center;
-   .card-text{
-     font-family: $font-dance;
-   }
-
- }
-
-  .word-card-3a{
-   background-color: #F1E1A6;
-   height:300px;
-   max-width: 220px;
-   display: flex;
-   align-items: center; 
-   .card-text{
-     font-family: $font-dance;
-   }
-
- }
-
-  .word-card-4a{
-   background-color: #D0E2FA;
-   height:300px;
-   max-width: 220px;
-   display: flex;
-   align-items: center; 
-   .card-text{
-     font-family: $font-dance;
-   }
-
- }
-
-
+.word-card-4a {
+  background-color: #d0e2fa;
+  height: 300px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  .card-text {
+    font-family: $font-dance;
+  }
+}
 
 //services page
-.service_header{
+.service_header {
   font-family: $font-primary;
   font-weight: $fw-900;
 }
 
-
-
-
-
-
-
-
-
-
-
-//media querries
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-.word-para{
-      text-align: center;
-    }
+//contact page
+.iyt {
+  font-family: $font-dance;
+}
+.body-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-    
+//footer
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  background-color: black;
+  padding: auto;
+  overflow-x: scroll;
+  text-align: center;
+
+  .bottom_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+}
+
+//media querries
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-     
+@media only screen and (min-width: 768px) {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-  .left-container{
-    position: fixed;
-  }
- 
-
-  .right-container{
-    margin-left: 400px;
-  }
+@media only screen and (min-width: 992px) {
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
- .left-container{
+@media only screen and (min-width: 1200px) {
+  .left-container {
     position: fixed;
   }
 
-  .right-container{
+  .right-container {
     margin-left: 400px;
 
-    .word-card{
+    .word-card {
       margin-left: 30px;
     }
   }

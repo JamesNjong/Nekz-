@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;500;900&family=Dancing+Script&display=swap");
-body, html {
+body,
+html {
   max-width: 100vw;
   font-family: "Archivo", sans-serif;
   font-weight: 100;
@@ -57,7 +58,9 @@ body, html {
   margin-left: 4px;
 }
 
-.header-content .navbar-toggler, .header-content .navbar-toggler:focus, .header-content .navbar-toggler:active,
+.header-content .navbar-toggler,
+.header-content .navbar-toggler:focus,
+.header-content .navbar-toggler:active,
 .header-content .navbar-toggler-icon:focus {
   outline: none;
   -webkit-box-shadow: none;
@@ -144,7 +147,7 @@ body, html {
 
 .left-container {
   padding-left: 20px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,8 +178,8 @@ body, html {
 }
 
 .left-container .button-controls .btn-service {
-  border-left: 1px solid #FF9924;
-  border-right: 1px solid #1169FF;
+  border-left: 1px solid #ff9924;
+  border-right: 1px solid #1169ff;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -187,13 +190,13 @@ body, html {
 }
 
 .left-container .button-controls .btn-service:hover {
-  border-bottom: 1px solid #1169FF;
-  border-top: 1px solid #FF9924;
+  border-bottom: 1px solid #1169ff;
+  border-top: 1px solid #ff9924;
 }
 
 .left-container .button-controls .btn-contact {
-  border-right: 1px solid #FF9924;
-  border-left: 1px solid #1169FF;
+  border-right: 1px solid #ff9924;
+  border-left: 1px solid #1169ff;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -204,8 +207,8 @@ body, html {
 }
 
 .left-container .button-controls .btn-contact:hover {
-  border-top: 1px solid #1169FF;
-  border-bottom: 1px solid #FF9924;
+  border-top: 1px solid #1169ff;
+  border-bottom: 1px solid #ff9924;
 }
 
 .right-container {
@@ -244,7 +247,7 @@ body, html {
 }
 
 .word-card-1 {
-  background-color: #F1E1A6;
+  background-color: #f1e1a6;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -260,7 +263,7 @@ body, html {
 }
 
 .word-card-2 {
-  background-color: #C3E5AE;
+  background-color: #c3e5ae;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -277,7 +280,7 @@ body, html {
 }
 
 .word-card-3 {
-  background-color: #E5AEE3;
+  background-color: #e5aee3;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -293,7 +296,7 @@ body, html {
 }
 
 .word-card-1a {
-  background-color: #54BAB9;
+  background-color: #54bab9;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -309,7 +312,7 @@ body, html {
 }
 
 .word-card-2a {
-  background-color: #FF8080;
+  background-color: #ff8080;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -326,7 +329,7 @@ body, html {
 }
 
 .word-card-3a {
-  background-color: #F1E1A6;
+  background-color: #f1e1a6;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -342,7 +345,7 @@ body, html {
 }
 
 .word-card-4a {
-  background-color: #D0E2FA;
+  background-color: #d0e2fa;
   height: 300px;
   max-width: 220px;
   display: -webkit-box;
@@ -362,25 +365,68 @@ body, html {
   font-weight: 900;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  .word-para {
-    text-align: center;
-  }
+.iyt {
+  font-family: "Dancing Script", cursive;
 }
 
+.body-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white !important;
+  background-color: black;
+  padding: auto;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+footer .bottom_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+/* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  .left-container {
-    position: fixed;
-  }
-  .right-container {
-    margin-left: 400px;
-  }
-}
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .left-container {
