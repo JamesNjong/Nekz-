@@ -211,6 +211,40 @@ html {
   border-bottom: 1px solid #ff9924;
 }
 
+.left-container .button-controls .btn-email {
+  border-left: 1px solid #ff9924;
+  border-right: 1px solid #1169ff;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.left-container .button-controls .btn-email:hover {
+  border-bottom: 1px solid #1169ff;
+  border-top: 1px solid #ff9924;
+}
+
+.left-container .button-controls .btn-phone {
+  border-right: 1px solid #ff9924;
+  border-left: 1px solid #1169ff;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.left-container .button-controls .btn-phone:hover {
+  border-top: 1px solid #1169ff;
+  border-bottom: 1px solid #ff9924;
+}
+
 .right-container {
   padding-right: 20px;
   overflow-y: scroll;
