@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;500;900&family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;500;900&family=Dancing+Script&display=swap');
 
 //typography
 $font-primary: "Archivo", sans-serif;
@@ -20,6 +20,8 @@ html {
   font-family: $font-primary;
   font-weight: 100;
 }
+
+
 
 // NAVIGATION
 /* 
@@ -203,7 +205,6 @@ html {
       border-bottom: 1px solid $color-primary;
     }
 
-
     //contact page buttons
     .btn-email {
       border-left: 1px solid $color-primary;
@@ -234,8 +235,6 @@ html {
       border-top: 1px solid $color-secondary;
       border-bottom: 1px solid $color-primary;
     }
-
-
   }
 }
 
@@ -270,8 +269,7 @@ html {
   background-color: #c3e5ae;
   height: 300px;
   max-width: 220px;
-  display: flex;
-  margin-left: 20px;
+  display: flex; 
   align-items: center;
   .card-text {
     font-family: $font-dance;
@@ -304,8 +302,7 @@ html {
   background-color: #ff8080;
   height: 300px;
   max-width: 220px;
-  display: flex;
-  margin-left: 20px;
+  display: flex; 
   align-items: center;
   .card-text {
     font-family: $font-dance;
@@ -375,10 +372,42 @@ footer {
 //media querries
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column; 
+    justify-content:center; 
+    align-items: center; 
+    .col-10{ 
+      display: flex;
+      flex-direction:column; 
+      justify-content: center;
+      align-items: center; 
+      text-align: center; 
+    }
+    .flex-lg-row-reverse { 
+      justify-content: center;
+      align-items: center;  
+    }
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
+  .container {
+
+    .col-10{ 
+      display: flex;
+      flex-direction:column; 
+      justify-content: center;
+      align-items: center; 
+      text-align: center;
+    }
+
+    .flex-lg-row-reverse { 
+      justify-content: center;
+      align-items: center;  
+    }
+  }
 }
 
 /* Small Devices, Tablets */
@@ -397,9 +426,5 @@ footer {
 
   .right-container {
     margin-left: 400px;
-
-    .word-card {
-      margin-left: 30px;
-    }
   }
 }
