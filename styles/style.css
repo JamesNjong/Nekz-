@@ -42,7 +42,7 @@ html {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #012393;
+  background: #19C17E;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -70,8 +70,8 @@ html {
 }
 
 .header-content .navbar-toggler.collapsed .toggler-icon {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#012393), color-stop(#0b2cab), color-stop(#1535c4), color-stop(#1e3fdd), to(#2649f7));
-  background-image: linear-gradient(to right top, #012393, #0b2cab, #1535c4, #1e3fdd, #2649f7);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
+  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
 }
 
 .header-content .navbar-toggler .top-bar {
@@ -137,11 +137,11 @@ html {
 }
 
 .header-content .nav-link {
-  color: #012393 !important;
+  color: black !important;
 }
 
 .header-content .nav-item:hover {
-  color: #012393 !important;
+  color: #005247 !important;
   border-bottom: 2px solid #012393;
 }
 
@@ -178,8 +178,8 @@ html {
 }
 
 .left-container .button-controls .btn-service {
-  border-left: 1px solid #ff9924;
-  border-right: 1px solid #1169ff;
+  background-color: #005247;
+  color: white;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -190,13 +190,13 @@ html {
 }
 
 .left-container .button-controls .btn-service:hover {
-  border-bottom: 1px solid #1169ff;
-  border-top: 1px solid #ff9924;
+  background-color: #19C17E;
 }
 
 .left-container .button-controls .btn-contact {
-  border-right: 1px solid #ff9924;
-  border-left: 1px solid #1169ff;
+  background-color: #19C17E;
+  border: none;
+  color: white;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -207,13 +207,13 @@ html {
 }
 
 .left-container .button-controls .btn-contact:hover {
-  border-top: 1px solid #1169ff;
-  border-bottom: 1px solid #ff9924;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
+  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
 }
 
 .left-container .button-controls .btn-email {
-  border-left: 1px solid #ff9924;
-  border-right: 1px solid #1169ff;
+  border-left: 1px solid #005247;
+  border-right: 1px solid #19C17E;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -224,13 +224,13 @@ html {
 }
 
 .left-container .button-controls .btn-email:hover {
-  border-bottom: 1px solid #1169ff;
-  border-top: 1px solid #ff9924;
+  border-bottom: 1px solid #19C17E;
+  border-top: 1px solid #005247;
 }
 
 .left-container .button-controls .btn-phone {
-  border-right: 1px solid #ff9924;
-  border-left: 1px solid #1169ff;
+  border-right: 1px solid #005247;
+  border-left: 1px solid #19C17E;
   border-radius: 2rem;
   font-size: 12px;
   font-weight: 200;
@@ -241,8 +241,8 @@ html {
 }
 
 .left-container .button-controls .btn-phone:hover {
-  border-top: 1px solid #1169ff;
-  border-bottom: 1px solid #ff9924;
+  border-top: 1px solid #19C17E;
+  border-bottom: 1px solid #005247;
 }
 
 .right-container {
@@ -425,34 +425,28 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: white !important;
   background-color: black;
-  padding: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
   overflow-x: scroll;
   text-align: center;
 }
 
-footer .bottom_nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style-type: none;
+footer .ssan {
+  font-size: 14px;
+}
+
+footer .foot-link {
+  text-decoration: none;
+  padding: 4px;
+  margin: 0px;
 }
 
 /* Custom, iPhone Retina */
@@ -535,6 +529,10 @@ footer .bottom_nav {
   }
   .right-container {
     margin-left: 400px;
+  }
+  .nav-link {
+    border-bottom: 1px solid grey;
+    margin-left: 3px;
   }
 }
 /*# sourceMappingURL=style.css.map */

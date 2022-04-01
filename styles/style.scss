@@ -11,8 +11,10 @@ $fw-900: 900;
 
 //colors
 $left-container-bg: #f7f7f7;
-$color-primary: #ff9924;
-$color-secondary: #1169ff;
+$color-primary: #005247;
+$color-secondary: #19C17E;
+
+$color-gradient : linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
 
 body,
 html {
@@ -55,7 +57,7 @@ html {
       position: absolute;
       height: 3px;
       width: 100%;
-      background: #012393;
+      background: $color-secondary;
       border-radius: 1px;
       opacity: 1;
       left: 0;
@@ -84,14 +86,7 @@ html {
   /* Color of 3 lines */
 
   .navbar-toggler.collapsed .toggler-icon {
-    background-image: linear-gradient(
-      to right top,
-      #012393,
-      #0b2cab,
-      #1535c4,
-      #1e3fdd,
-      #2649f7
-    );
+    background-image: $color-gradient;
   }
 
   /* when navigation is clicked */
@@ -148,11 +143,11 @@ html {
   }
 
   .nav-link {
-    color: #012393 !important;
+    color: black !important;
   }
 
   .nav-item:hover {
-    color: #012393 !important;
+    color: $color-primary !important;
     border-bottom: 2px solid #012393;
   }
 }
@@ -176,8 +171,8 @@ html {
     gap: 4px;
 
     .btn-service {
-      border-left: 1px solid $color-primary;
-      border-right: 1px solid $color-secondary;
+      background-color: $color-primary; 
+      color: white;
       border-radius: 2rem;
       font-size: 12px;
       font-weight: $fw-200;
@@ -186,13 +181,13 @@ html {
     }
 
     .btn-service:hover {
-      border-bottom: 1px solid $color-secondary;
-      border-top: 1px solid $color-primary;
+      background-color: $color-secondary;
     }
 
     .btn-contact {
-      border-right: 1px solid $color-primary;
-      border-left: 1px solid $color-secondary;
+      background-color: $color-secondary;
+      border: none;
+      color: white;
       border-radius: 2rem;
       font-size: 12px;
       font-weight: $fw-200;
@@ -201,8 +196,7 @@ html {
     }
 
     .btn-contact:hover {
-      border-top: 1px solid $color-secondary;
-      border-bottom: 1px solid $color-primary;
+      background-image: $color-gradient;
     }
 
     //contact page buttons
@@ -352,21 +346,27 @@ html {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: white !important;
   background-color: black;
-  padding: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
   overflow-x: scroll;
   text-align: center;
 
-  .bottom_nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+   
+
+  .ssan{
+    font-size: 14px;
   }
+
+  .foot-link{
+      text-decoration: none;
+      padding:4px;
+      margin: 0px;
+    }
+   
 }
 
 //media querries
@@ -426,5 +426,10 @@ footer {
 
   .right-container {
     margin-left: 400px;
+  }
+
+  .nav-link{
+    border-bottom: 1px solid grey;
+    margin-left: 3px;
   }
 }
