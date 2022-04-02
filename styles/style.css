@@ -510,6 +510,9 @@ footer .foot-link {
             align-items: center;
     text-align: center;
   }
+  .container .col-10 .word-para {
+    text-align: justify;
+  }
   .container .flex-lg-row-reverse {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
