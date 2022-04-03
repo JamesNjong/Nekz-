@@ -6,6 +6,10 @@ html {
   font-weight: 100;
 }
 
+.word-para, .service-para {
+  text-align: justify;
+}
+
 /* 
     2. When clicked, give the text the same highlight colour
     3. Give the nav items a font for links roboto thin italics 
