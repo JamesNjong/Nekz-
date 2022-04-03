@@ -3,9 +3,9 @@ function sendEmail() {
     Host: "smtp.gmail.com",
     Username: "jamesberinyuy@gmail.com",
     Password: "formathematics",
-    To: "jamesberinyuy@gmail.com",
+    To: "contact@dropstori.com",
     From: document.getElementById("email").value,
-    Subject: "New Contact Form Inquiry : Nekz website",
+    Subject: "New Contact Form Inquiry : dropstori website",
     Body:
       "Name :" +
       document.getElementById("name").value +
