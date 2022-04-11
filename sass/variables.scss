@@ -1,41 +1,47 @@
 //fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 
 // 1. font families
-$arimo-font-family: 'Arimo', sans-serif; // paragraphs
-$ds-font-family: 'Dancing Script', cursive;  // decorative text 
-$exo-font-family: 'Exo 2', sans-serif;   // headings
-$mont-font-family: 'Montserrat', sans-serif;  // thin paragraphs
-$jura-font-family: 'Jura', sans-serif;   // subheadings
-$fira-font-family: 'Fira Code', monospace;
+$arimo-font-family: "Arimo", sans-serif; // paragraphs
+$ds-font-family: "Dancing Script", cursive; // decorative text
+$exo-font-family: "Exo 2", sans-serif; // headings
+$mont-font-family: "Montserrat", sans-serif; // thin paragraphs
+$jura-font-family: "Jura", sans-serif; // subheadings
+$fira-font-family: "Fira Code", monospace;
 
 // 2. font sizes
 
-
-
-
-
-
 //colors
 
-$color-primary : #005257;
-$color-secondary: #029359 ;
-$color-accent: #19C17E; 
+$color-primary: #005257;
+$color-secondary: #029359;
+$color-accent: #19c17e;
 
-$color-pale-1:#C2FCE5; 
-$color-pale-2:#B0E5AE; 
-$color-pale-3:#6BD899;
+$color-pale-1: #c2fce5;
+$color-pale-2: #b0e5ae;
+$color-pale-3: #6bd899;
 
-$color-white-heavy: #FFFBEB; 
-$color-white: #FFFFFF; 
-$color-black: #030303; 
+$color-white-heavy: #fffbeb;
+$color-white: #ffffff;
+$color-black: #030303;
 
+$color-gradient: linear-gradient(
+  to right top,
+  #f8fbde,
+  #f6fade,
+  #f4f9df,
+  #f2f8df,
+  #f0f7df,
+  #edf7da,
+  #eaf7d5,
+  #e6f7d1,
+  #def9c7,
+  #d5fabe,
+  #cafcb6,
+  #bdfeaf
+);
 
-$color-gradient : linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
-
-
-$color-partnered: #FFDEE2; 
-$color-participate:#C2FCE5; 
-$color-umbrella:#CDCDFA;
+$color-partnered: #ffdee2;
+$color-participate: #c2fce5;
+$color-umbrella: #cdcdfa;
