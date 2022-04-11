@@ -1,0 +1,123 @@
+@import "../sass/variables";
+
+//home page
+.scholarships {
+  min-height: 80vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .scholarship-para {
+    text-align: justify;
+  }
+}
+
+.scholars-content-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.scholar-hero-section {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  padding-top: 70px;
+
+  margin: 0;
+
+  .scholar-hero-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .headline {
+      color: $color-primary !important;
+    }
+  }
+}
+
+.scholar-row-3 {
+  padding: 0;
+
+  .scholar-item-text {
+    text-align: justify;
+    padding-left: 0;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .scholars-content-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .scholar-row-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .scholars-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .scholar-row-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .scholars-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .scholar-row-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   .scholars-content-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .scholar-row-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+ .scholars-content-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .scholar-row-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    align-items: center;
+  }
+}

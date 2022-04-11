@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1144.896" height="1143.896" viewBox="0 0 1144.896 1143.896">
+  <defs>
+    <filter id="Ellipse_282" x="0" y="0" width="1144.896" height="1143.896" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_283" x="0" y="5.305" width="987.684" height="986.684" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_284" x="0" y="10.575" width="831.506" height="830.506" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_285" x="0" y="16.961" width="642.231" height="641.231" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_286" x="0" y="21.428" width="509.842" height="508.842" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_209" data-name="Group 209" transform="translate(-655.296 -188.716) rotate(-2)">
+    <g id="Group_208" data-name="Group 208">
+      <g transform="matrix(1, 0.03, -0.03, 1, 648.31, 211.47)" filter="url(#Ellipse_282)">
+        <circle id="Ellipse_282-2" data-name="Ellipse 282" cx="538" cy="538" r="538" transform="translate(0 37.55) rotate(-2)" fill="#029359"/>
+      </g>
+      <g transform="matrix(1, 0.03, -0.03, 1, 648.31, 211.47)" filter="url(#Ellipse_283)">
+        <circle id="Ellipse_283-2" data-name="Ellipse 283" cx="462" cy="462" r="462" transform="translate(0 37.55) rotate(-2)" fill="#19c17e"/>
+      </g>
+      <g transform="matrix(1, 0.03, -0.03, 1, 648.31, 211.47)" filter="url(#Ellipse_284)">
+        <circle id="Ellipse_284-2" data-name="Ellipse 284" cx="386.5" cy="386.5" r="386.5" transform="translate(0 37.55) rotate(-2)" fill="#6bd899"/>
+      </g>
+      <g transform="matrix(1, 0.03, -0.03, 1, 648.31, 211.47)" filter="url(#Ellipse_285)">
+        <circle id="Ellipse_285-2" data-name="Ellipse 285" cx="295" cy="295" r="295" transform="translate(0 37.55) rotate(-2)" fill="#b0e5ae"/>
+      </g>
+      <g transform="matrix(1, 0.03, -0.03, 1, 648.31, 211.47)" filter="url(#Ellipse_286)">
+        <circle id="Ellipse_286-2" data-name="Ellipse 286" cx="231" cy="231" r="231" transform="translate(0 37.55) rotate(-2)" fill="#3b9155"/>
+      </g>
+    </g>
+    <text id="Dropstori" transform="translate(687 505)" fill="#fffbeb" font-size="94" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="0">Dropstori</tspan></text>
+  </g>
+</svg>

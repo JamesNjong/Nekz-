@@ -1,0 +1,81 @@
+@import "../sass/navbars";
+
+@import "../sass/footer";
+
+@import "../sass/herosections";
+
+@import "../sass/problemoutline";
+
+@import "../sass/services";
+
+@import "../sass/valueproposition";
+
+@import "../sass/training";
+
+@import "../sass/aboutus";
+
+@import "../sass/contact";
+
+@import "../sass/scholarships";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  //ensure content does not scroll horizontally
+  width: 100vw;
+
+  scroll-behavior: smooth;
+
+  font-family: $arimo-font-family;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-family: $fira-font-family;
+  color: $color-accent;
+}
+
+a:hover {
+  font-family: $arimo-font-family;
+  color: $color-primary;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $exo-font-family;
+  color: $color-secondary;
+}
+
+.section {
+  min-height: 80vh;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.ent-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

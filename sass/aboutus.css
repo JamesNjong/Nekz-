@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 10%;
+  background-color: #dde5ed;
+}
+
+.about-us .about-head {
+  margin-bottom: 40px;
+}
+
+.about-us .about-col-holder {
+  width: 100%;
+}
+
+.about-us .about-col-holder p {
+  max-width: 100%;
+}
+
+.about-us .about-subhead {
+  font-family: "Dancing Script", cursive;
+  color: #005257;
+  font-size: 30px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .about-col-holder {
+    width: 100%;
+  }
+  .about-col-holder p {
+    width: 100%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .about-col-holder {
+    width: 100%;
+  }
+  .about-col-holder p {
+    width: 100%;
+  }
+}
+
+.about-stone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 320px;
+  width: 220px;
+  padding: 20px;
+  border: none;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: #005257;
+  color: #FFFFFF;
+}
+
+.about-item {
+  padding: 5%;
+}
+
+.about-wecommit .about-stone {
+  background-color: #FFDEE2;
+  color: #005257;
+}
+
+.about-whatmatters .about-stone {
+  background-color: #d0d8ec;
+  color: #005257;
+}
+
+.about-whywe .about-stone {
+  background-color: #eaecd0;
+  color: #005257;
+}
+
+.about-whowe .about-stone {
+  background-color: #c4f4f0;
+  color: #005257;
+}
+
+.about-hero {
+  padding: 5%;
+}
+/*# sourceMappingURL=aboutus.css.map */

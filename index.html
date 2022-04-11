@@ -4,200 +4,490 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
- <meta name="description" content="We help job seekers find words to tell compelling narratives about who they are, what they know and why they are the best candidates for the jobs they seek. Work with us for your interviews and all job hunting kits.">
+  <meta name="description" content="We help job seekers find words to tell compelling narratives about who they are, what they know and why they are the best candidates for the jobs they seek. Work with us for your interviews and all job hunting kits.">
 
 
 <link rel="icon" type="image/png" sizes="32x32" href="./images/tab-icon.png">
 
- <title>dropstori</title>
+ <title>Dropstori</title>
 
 
 <!--Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <!-- Custome style sheet-->
-<link rel="stylesheet" href="./styles/style.css">
-
+<link rel="stylesheet" href="./styles/main.css">
 
 </head>
-
 <body>
 
-<div class="wrapper container-fluid">
-<div class="row">
+<div class="content-wrapper">
+<!-- Header content -->
+<header class="header-content container-fluid">
 
-    <div class="left-container col-xl-4 col-12">
-
-    <!-- Header content -->
-    <header class="header-content container-fluid">
-
-    <nav class="navbar navbar-expand-md navbar-light  ">
-
+  <nav class="navbar navbar-expand-md navbar-light ">
 
     <!-- Brand -->
     <div class="brand d-flex justify-content-center align-items-center">
-    <img src="./images/drop-icon.svg" width="50"  alt="name-logo" class="img-fluid my-2" > 
+      <img src="./icons/brand.svg" width="50"  alt="name-logo" class="img-fluid my-2" > 
 
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end px-4" id="collapsibleNavbar">
 
+        <ul class="navbar-nav  justify-content-end align-items-center">
+    
+          <li class="nav-item active"><a href="#home" class="nav-link px-2 ">Home</a></li>
+    
+          <li class="nav-item"><a href="#aboutus" class="nav-link px-2">About<a></li>
+
+          <li class="nav-item"><a href="#services" class="nav-link px-2 ">Services</a></li>
+
+          <li class="nav-item"><a href="#contactus" class="nav-link px-2 ">Contact</a></li>
+                    
+        </ul>
+    
+      </div> 
     </div>
 
-
-<!-- Toggler/collapsable Button -->
-<button class="navbar-toggler collapsed d-flex d-lg-none d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Toggler/collapsable Button -->
+    <button class="navbar-toggler collapsed d-flex d-lg-none d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     
-    <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon top-bar"></span>
                     
-    <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
                     
-    <span class="toggler-icon bottom-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
                 
-</button>
+    </button>
 
-<!-- Navbar links -->
-<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-
-<ul class="navbar-nav  justify-content-end align-items-center">
     
-    <li class="nav-item d-lg-none d-md-none"><a href="./index.html" class="nav-link px-2 ">Home</a></li>
-    
-    <li class="nav-item"><a href="./about.html" class="nav-link px-2">About<a></li>
 
-    <li class="nav-item"><a href="./training.html" class="nav-link px-2 ">Our Training</a></li>
+  </nav>
+
+</header>
+
+
+
+<!-- Main container-->
+<main class="main-wrapper">
+
+
+<!-- hero div-->
+<section class=" row hero-section" id="home">
+
+  <div class="home-hero-data">
+    <h1 class="headline">We are storytellers, and we help people find jobs and grow businesses using stories.</h1>
+
+    <p class=" py-6">At dropstori, we pride ourselves with helping job seekers and entrepreneurs find the right words to tell compelling narratives about who they are, what they know or have, and why they are the best candidates for the opportunities they seek. </p>
+
+    <div class="button-controls py-4">
+      <a href="#services" class="btn btn-service">OUR SERVICES</a>
+
+      <a href="#contactus" class="btn btn-contact ">CONTACT US</a>
+    </div>    
+  </div>
+
+  <div class="home-hero-image d-none d-lg-inline-flex d-flex justify-content-center align-items-center">
+    <img src="./illustrations/homecircles.svg" alt="job seeker" loading="lazy" width="400" class="img-fluid">      
+  </div>
+
+</section>
+
+<!--problem outline-->
+<section class=" row problem-outline">
+
+  <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 g-5 justify-content-center align-items-center">
         
-    <li class="nav-item"><a href="./forschools.html" class="nav-link px-2 ">For Schools</a></li>
+        <div class="col">
+          <div class="card shadow problem">
+            <div class="thumbnail problem-1">
+              
+            </div>
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./services.html" class="nav-link px-2 ">Our Services</a></li>
+            <div class="card-body justify-content-center align-items-center p-4">
+              <h4 class="decorated ">We help people get jobs and scholarships.</h4>
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./contactus.html" class="nav-link px-2 ">Contact us</a></li>
-                    
-</ul>
-    
-</div> 
+              <p class="card-text ">Job hunting often comes down to earning trust by convincing employers about who you are, what you know, and why you are the best candidate for the job; and stories are the best way to help them see, and trust you. If you are skilled and yet cannot find a job, chances are you are not communicating effectively, and we would love to help.</p>
+               
+            </div>
+          </div>
+        </div>
 
-</nav>
 
-    </header>
- 
+        <div class="col">
+          <div class="card shadow problem">
+            <div class="thumbnail problem-2">
+              
+            </div>
 
-    <div class="body-elements px-4">
-        <h1 class="headline">We are the storytellers, helping job seekers and entrepreneurs, access opportunities. </h1>
+            <div class="card-body justify-content-center align-items-center p-4">
+              <h4 >We help entrepreneurs access opportunities.</h4>
+              <p class="card-text">Every entrepreneur is a crusader for some idea and vision. Gaining market share or raising capital is a direct consequence of who they convince to join this crusade. And if your start-up is struggling or your business has reached a stand-still, chances are your story is not working, and we could help you find the words to fit it, and make it make sense.</p>
+               
+            </div>
+          </div>
+        </div>
 
-        <p class=" py-6">At dropstori, we help job seekers and entrepreneurs find the right words to tell compelling narratives about who they are, what they know, and why they are the best options for the opportunities they seek. </p>
 
-        <div class="button-controls py-4">
-        <a href="./services.html" class="btn btn-service">OUR SERVICES</a>
+        <div class="col">
+          <div class="card shadow problem">
+            <div class="thumbnail problem-3">
+              
+            </div>
 
-        <a href="./contactus.html" class="btn btn-contact ">CONTACT US</a>
+            <div class="card-body justify-content-center align-items-center
+            p-4">
+              <h4 class="decorated ">We help schools make students job ready.</h4>
+
+              <p class="card-text">Not every school has a specialized job readiness training program, partly because they cannot find the experts to help structure and facilitate the program. This however makes them less competitive in the markets, and also retards their alumni, as they struggle to position themselves after graduation. For these schools, we would love also, to.</p>
+               
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+
+</section>
+
+
+<!--/our services section-->
+<div class=" section container-fluid services-outline" id="services">
+  <div class="section-header-service container-fluid px-4">
+    <h2 class="serction-tag text-center display-4">Our Services</h2>
+    <p class="service-subhead text-lg-center col-lg-7 col-md-7 col-10">We are a companion for everyone struggling to market themselves. Our services are designed to help you craft the stories that showcase the sweetest things about you. </p>
+  </div>
+  
+  <div class="container service-ads">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 service-row-1">
+        <div class="col workshops-service">
+          
+          <img src="./illustrations/service-workshops.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
+          
+          <h4 class="service_header py-3 display-5">Campus Training and Workshops</h4>
+          
+          <p class="service-para">We design and teach engaging short courses and workshops on career development for schools and small groups. Our workshops use practical case studies designed with leading employers, to give learners a foretaste of what job hunting should be.</p>
+          
+          <a href="./services.html" class="service-learn-more">Learn more</a>
+        </div>
+
+        <div class="col resume-and-cover-service">
+          
+          <img src="./illustrations/service-write.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
+          
+          <h4 class="service_header py-3 display-5">Job hunting</h4>
+          
+          <p class="service-para">For people who have little time to get the perfect CV, motivation letter or statement of purpose done, we take the burden off their hands and after a conversation or two, we write, edit, and rewrite SOPs, CVs and motivation letters that highlight the most relatable versions of themselves.</p>
+          
+          <a href="./services.html" class="service-learn-more">Learn more</a>
         </div>
     </div>
 
-    <span></span>
-    </div>
-
-    <div class="col-xl-4 d-md-none">
-      <div class="nothing-div"></div>
-    </div>
-
-    <div class="right-container py-5  col-xl-8">
-    <div class="container">
-
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row   justify-content-center align-items-center g-5 py-5">
-       
-
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-1 shadow-sm p-4">
-
-            <p class="card-text display-6">We use storytelling to help people get jobs.</p>
-
-          </div>
-          
+    <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse  justify-content-center align-items-center g-5 py-5">
+          <div class="col-10 col-sm-6 col-lg-5 justify-content-center align-items-center">
+            <img src="./illustrations/service-lytics.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
           </div>
 
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para px-4">For everyone who has mastered a skill, getting a job comes down to convincing an employer your heart pumps blood, and its red.<br/> Employers want to know who you are, and why you are the best candidate; and stories are the best way to help them see, and trust you.<br/> <br/>We help people master how to tell stories that highlight the best things about them.</p>
+          <div class="col-10 col-sm-8 col-lg-5">
+            <h4 class="service_header py-3 display-5">School Analytics</h4>
+            <p class="service-para">We provide schools with monitoring and evaluation support to help school managers make informed decisions that improve student outcomes and enrollment. This we do by designing and conducting surveys that capture the expectations of parents and needs of the students, and using advanced data analytics, we provide actionable insights on how adjustments could be made to curriculum delivery and student follow-up to help meet the expectations of the students and parents and ultimately prepare the students not only for jobs, but for job hunting as well.</p>
+
+            <a href="./services.html" class="service-learn-more">Learn more</a>
           </div>
-
-          
-
         </div>
+    </div>
+
+    <div class="container col-xxl-12 px-4 py-2">
+        <div class="row  justify-content-center align-items-center g-5 py-5">
+          <div class="col-10 col-sm-6 col-lg-5 justify-content-center align-items-center">
+            <img src="./illustrations/service-prep.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-5">
+            <h4 class="service_header py-3 display-5">Interview Prep.</h4>
+            <p class="service-para">Getting a job is a long process, and sometimes with all the skills, and with one foot in the door, people still find it hard to make a compelling case about why they should be chosen over other candidates. Our interview prep service helps struggling job seekers develop a mastery of the storytelling techniques needed to thrive in interviews. Repeatedly simulating the interviews till the candidates are ready to out-do themselves. </p>
+
+            <a href="./services.html" class="service-learn-more">Learn more</a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<!--How we differentiate-->
+<div class=" section value-proposition">
+
+
+  <div class="container vp-container">
+
+      <div class="row vp-header justify-content-center align-items-center">
+        <h2 class="service_header display-4 text-center col-sm-8">What Makes us Different ?</h2>
+        
+        <p class="service-para col-lg-8">To everyone client who comes our way, we provide a world class professional service which underscores how much respect we have for their time, and how much gratitude our hearts hold every time they chose us. And they keep coming back because we are great at storytelling, and for half as much, we do great work  in the time-frame agreed.</p>
+        <hr class="col-6 text-center">
       </div>
 
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row flex-lg-row-reverse justify-content-lg-center align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-2 shadow-sm p-4">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 g-5">
+        
+        <div class="col"> 
+          <div class="shadow vp">
+            <p class="we-are">we are</p>
+            <div class="vp-thumbnail p-3 text-center">
+              <h2 class="vp-decorated">Storytellers</>
+            </div>
 
-            <p class="card-text display-6">We help entrepreneurs raise funds, using storytelling.</p>
+            <div class="vp-body">
+
+              <p class="card-text p-4">For everyone needing a compelling story that justifies their claim to an opportunity, we find the words, and we make them stick.</p>
+               
+            </div>
+          </div>
+        </div>
 
 
+        <div class="col">
+          <div class=" shadow vp justify-content-center align-items-center">
+            <p class="we-are">we are</p>
+            <div class="vp-thumbnail p-3 text-center">
+              <h2 class="vp-decorated">Professional</>
+            </div>
+
+            <div class="vp-body">
+
+              <p class="card-text p-4">If we say it will be ready tomorrow, then it will be and when it cannot be, we do not leave our people wondering why, we tell you upfront.</p>
+               
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="shadow vp">
+            <p class="we-are">we are</p>
+            <div class="vp-thumbnail p-3 text-center">
+              <h2 class="vp-decorated">Afordable</>
+            </div>
+
+            <div class="vp-body">
+
+              <p class="card-text p-4">For far more quality than our competitors, we charge half as much, and allow you to design your payment plan. Sounds great right ?</p>
+               
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+</div>
+
+<!--entrepreneurs-->
+<div class=" section entrepreneurs">
+
+  <div class="container col-xxl-12 px-4 py-2">
+        <div class="row flex-lg-row-reverse  justify-content-center align-items-center g-1 py-5">
+          <div class="col-10 col-sm-8 col-lg-5 justify-content-center align-items-center">
+            <img src="./images/entrepreneurs.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="300" loading="lazy">
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-5">
+            <h2 class="service_header ">We are the agency entrepreneurs come to, when they dream about changing the world.</h2>
+
+            <p class="service-para"> The finest entrepreneurs, the one percent who have changed the course of history with one product or the other, have been great storytellers. With a mastery of storytelling techniques, you can make investors flog to you and gain new clients with a clear cut catchy message, which undoubtedly will bee difficult to resit.  That is what we do, even for the faint hearted.</p>
+
+            <a href="./entrepreneurs.html" class="service-learn-more">Learn more</a>
+          </div>
+        </div>
+  </div>
+
+</div>
+
+
+<!--training-->
+<div class=" section training " id="training">
+
+  <div class="training-layer col-10 col-lg-10 col-md-10 ">
+    <div class="training-head">
+    <h2 class="service_header text-lg-center display-6">Our Training</h2>
+    
+    <p class="service-para text-lg-center">We are excited about solving problems and helping people find jobs, but we do not want them coming back, we want them sending new people our way, and that is why we teach passionately and with unmatched rigor.</p>
+    <hr>
+  </div>
+
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3">
+
+    <div class="col p-4 training-brief-umbrella justify-content-center align-items-center">
+      <img src="./illustrations/training-umb.svg" alt="training umbrella" loading="lazy" width="90" class="img-fluid">
+      <p class="training-brief-par py-4">To help learners survive the storms of job hunting, we teach skills that fall in three broad categories, namely; goal setting, professional writing and job hunting techniques. These skills cover all our learners need to pick a career path and develop the needed character traits needed to thrive in job hunting.</p>
+    </div>
+
+    <div class="col p-4 training-brief-participate justify-content-center align-items-center">
+      <img src="./illustrations/training-part.svg" alt="training umbrella" loading="lazy" width="90" class="img-fluid">
+      <p class="training-brief-par py-4">Learning the skills for job hunting is far different from learning hard skills and thus we teach it with emotion. Intentionally, we create friendly classrooms where students can freely express themselves and feel safe enough to discuss and challenge their vulnerabilities, all while trusting that we have their best interest at heart.</p>
+    </div>
+
+    <div class="col p-4 training-brief-partneres justify-content-center align-items-center">
+      <img src="./illustrations/training-partn.svg" alt="training umbrella" loading="lazy" width="90" class="img-fluid">
+      <p class="training-brief-par py-4">We work with leading employers across the world to design case studies that mimic real world recruitment processes which the learners take. This allows the learners on our programs to see first hand the challenges they could face and ask for our help before mistakes are consequential.</p>
+    </div>
+
+  </div>
+  </div>
+
+</div>
+
+ <!--Schoolarship-->
+<div class=" section scholarships">
+
+  <div class="container col-xxl-12 py-2">
+        <div class="row justify-content-center align-items-center py-5">
+          <div class="col-10 col-sm-8 col-lg-4 justify-content-center align-items-center">
+            <img src="./images/scholarship.svg" class="d-block mx-lg-auto img-fluid my-md-4" alt="Bootstrap Themes" width="500" height="300" loading="lazy">
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-5 my-5">
+            <h2 class="scholarship-header ">When it is time for grad school, students and parents come to us.</h2>
+            <p class="scholarship-para">Using nothing but effective storytelling, we help students realize their most endearing dream of studying in the most prestigeous schools abroad. We walk them through finding where to go, and when they settle on where to go, we help them prepare air tight applications that all but guarantee admission.</p>
+
+            <a href="./scholarships.html" class="service-learn-more">Learn more</a>
+          </div>
+        </div>
+  </div>
+
+</div>
+
+<!--about us-->
+<div class="section about-us container-fluid" id="aboutus">
+
+  <div class="about-head">
+    <h2 class="display-4">About us</h2>
+    
+    <p class="about-para col-lg-5">Every step of the way we are focused on knowing what makes the client unique so we can help them tell compelling narratives about this uniqueness. This helps us connect with people for nothing but the opportunity to uncover deep underlying beauty in personality, and these connections are why we exist. Loving what we do for the benefit of knowing  new people. </p> 
+    <a href="./about.html" class="service-learn-more">Learn more</a>
+    <hr class="col-3">
+  </div>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5 about-col-holder justify-content-center align-items-center">
+
+    <div class="col p-lg-4">
+      <h4 class="about-subhead">who we are. . .</h4>
+      <p class="about-subbrief">We are the storytelling agency, helping job seekers and entrepreneurs to find the right words that tell compelling narratives about who they are, and why they are perfect candidates for the jobs and opportunities they seek. We teach exciting courses on employment and career development, and provide support at all stages of the job hunting process.</p>
+    </div>
+
+    <div class="col p-lg-4">
+      <h4 class="about-subhead">why we do it. . .</h4>
+      <p class="about-subbrief">We believe everyone is not cut out to be an entrepreneur, and financial freedom can also be achieved by working a nine to five. Our drive comes from knowing that schools are not set up to teach people how to job hunt, and that this gap creates enormous challenges for graduates who though talented still cannot find gainful employment within six months of graduation.</p> 
+    </div>
+
+    <div class="col p-lg-4">
+      <h4 class="about-subhead">what matters. . .</h4>
+      <p class="about-subbrief">Our focus as an organization is people. Helping them keep their dignity while navigating the challenges of job hunting is our number one priority. Along the way, we cherish creating memories with them, seeing joy that comes with finding a job or a new investor, and knowing we contributed in all that matters to us.</p> 
+    </div>
+
+    <div class="col p-lg-4">
+      <h4 class="about-subhead">when we commit. . .</h4>
+      <p class="about-subbrief">Forevery client or client group we work with, we take on the problems of the group with the conviction that for all who put in the work, there is only one outcome and we do not rest until we get them to where they belong. Thats why we have world class client follow-up schemes, focusing on providing the support needed to stay motivated in the job hunt.</p> 
+    </div>
+
+  </div>
+
+  
+</div>
+
+
+<div class=" contact-us" id="contactus">
+   
+  <div class="container col-xxl-12 px-4 py-2">
+        <div class="row  d-flex flex-row-reverse justify-content-center align-items-center g-5 py-5">
+          
+
+          <div class="col-10 col-sm-8 col-lg-6"> 
+            <h2 class="display-2 get-in-touch">Get in touch</h2>
+            <div class="contact-details"><p class="email text-md-center"><img src="./icons/email-svgrepo-com.svg" width="20" alt="email icon" class="img-fluid"> contact@dropstori.com</p>
+            <p class="phone text-md-center"><img src="./icons/whatsapp-svgrepo-com.svg" width="20" alt="email icon" class="img-fluid"> +237 658 298 215</p>
+            </div>
+            <hr>
+            <p class="service-para ">The first step to standing out is making a concious effort to get the help you need to fix the flaws in how you showup. At dropstori we special in helping people transition into more confident versions of themselves. Versions that make it easy for them to earn the trust of recruiters, investors and customers. If this is something you need, then we are the people to get it to you.</p>
+          </div>
+
+          <div class="col-10 col-sm-6 col-lg-6 justify-content-center align-items-center">
+           <div class="login-box">
+              <h2>Start here !</h2>
+                  <form>
+                    <div class="user-box">
+                      <label>Your name</label>
+                        <input type="text" name="" required="true">
+                        
+                    </div>
+                    <div class="user-box">
+                      <label>Email</label>
+                        <input type="email" name="" required="true">
+                    </div>
+
+                    <div class="user-box">
+                      <label for="">Message</label>
+                      <textarea type="text" name="" id="" cols="35" rows="3"></textarea>
+                    </div>
+
+                    <button class="btn-submit" href="#"> 
+                        Send
+                    </a>
+                  </form>
             </div>
           </div>
 
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para px-4">It is not enough to have a great product or idea. Building a thriving business requires an ability to communicate the value of this idea or the benefits of the product, and often entrepreneurs struggle enormously with this.<br/> <br/>We take this stress away, helping them write compelling pitch decks and prepare presentations that use storytelling to capture the essence of their ideas and products. </p>
-          </div>
         </div>
       </div>
+</div>
 
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row justify-content-center align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-3 shadow-sm p-4">
-
-            <p class="card-text display-6"> We make schools better and worthwhile.</p>
-
-
-          </div>
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para px-4">For every school owner or manager, questions like whats your estimated intake for the next year, whats your budget or what new activities are you planning for the students to improve their outcomes are generally hard and most often not considered. <br> <br> Using advanced analytics and tiny bits of mathematical optimization, we help schools better plan, and better serve their students and the parents who choose them. We help them differentiate with action driven value propositions that improve enrollment numbers and student outcomes.</p>
-          </div>
-        </div>
-      </div>
-
+</main>
  
+
+
+
+<!-- Footer -->
+ 
+
+<footer class="container-fluid">
+    <div class="footer-wrapper">
+     <!--Left cells-->
+     <div class="foot-left-cells">
+      <img src="./icons/brand.svg" alt="brand image" width="90" class="img-fluid brand-footer">
+      <p class="slogan-footer">Showup different</p>
+      <hr>
+     </div>
+
+     <!--Center cells-->
+     <div class="foot-center-cells">
+
+      <p class="foot-link-para"><a href="#home" class="foot-link">Home</a></p>
+      <p class="foot-link-para"><a href="#aboutus" class="foot-link">About us</a></p>
+      <p class="foot-link-para"><a href="#services" class="foot-link">Services</a></p>
+      <p class="foot-link-para"><a href="#training" class="foot-link">Training</a></p>
+      <p class="foot-link-para"><a href="./services.html/#schools" class="foot-link">Schools</a></p>
+      <p class="foot-link-para"><a href="./services.html/#entrepreneurs" class="foot-link">Entrepreneurs</a></p>
+
+     </div>
+
+     <div class="foot-right-cell">
+      <a href="#home" class="upbutton-link"><img src="./icons/upbutton.svg" alt="up arrow" width="20" class="img-fluid"></a>
+     </div>
     </div>
-  </div> 
-
-</div>
-
-
-</div>
-
-
- 
-
-<footer class="d-lg-none d-md-none">
-       <div class="foot-brandiv">
-            <img src="./images/drop-icon.svg" alt="drop-icon" width="80px" class="img-fluid">
-            <p class="py-2 ssan"><small>showup different.</small></p>
-          </div>
-
-          <div class="foot-link-grid-1"> 
-                <small class="foot-par"><a href="./about.html" class="foot-link ">About</a></small>
-    
-                <small class="foot-par"><a href="./services.html" class="foot-link  px-2">Services<a></small>
-
-                <small class="foot-par"><a href="./training.html" class="foot-link px-2 ">Training<a></small> 
-
-                <small class="foot-par"><a href="./forschools.html" class="foot-link px-2 ">For Schools<a></small> 
-
-                <small class="foot-par"><a href="./contactus.html" class="foot-link  ">Contact us<a></small>    
-
-                
-          </div>
 </footer>
 
+
+</div>
 
 
 <!--bootstrap JS-->
    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-<!-- Custom js file-->
-<script src="./js/main.js"></script>
 </body>
 </html>
