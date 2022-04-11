@@ -9,7 +9,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 .header-content {
-  color: #030303;
   overflow: auto;
   z-index: 6;
   padding-left: 50px;
@@ -21,7 +20,8 @@
   text-align: center;
   overflow: auto;
   z-index: 6;
-  background-color: #FFFFFF;
+  background-color: #005257;
+  color: #ffffff !important;
   /* Color of 3 lines */
   /* when navigation is clicked */
   /* State when the navbar is collapsed */
@@ -40,7 +40,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #029359;
+  background: #ffffff;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -68,8 +68,8 @@
 }
 
 .header-content .navbar-toggler.collapsed .toggler-icon {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
-  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f8fbde), color-stop(#f6fade), color-stop(#f4f9df), color-stop(#f2f8df), color-stop(#f0f7df), color-stop(#edf7da), color-stop(#eaf7d5), color-stop(#e6f7d1), color-stop(#def9c7), color-stop(#d5fabe), color-stop(#cafcb6), to(#bdfeaf));
+  background-image: linear-gradient(to right top, #f8fbde, #f6fade, #f4f9df, #f2f8df, #f0f7df, #edf7da, #eaf7d5, #e6f7d1, #def9c7, #d5fabe, #cafcb6, #bdfeaf);
 }
 
 .header-content .navbar-toggler .top-bar {
@@ -135,7 +135,7 @@
 }
 
 .header-content .nav-link {
-  color: #030303 !important;
+  color: #ffffff !important;
   font-family: "Fira Code", monospace;
 }
 
@@ -146,7 +146,7 @@
 
 .footer-wrapper {
   padding: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 5fr 1fr;
@@ -175,7 +175,7 @@ footer {
 
 .foot-center-cells .foot-link {
   text-decoration: none;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   cursor: pointers;
 }
 
@@ -301,7 +301,7 @@ footer {
 
 .button-controls .btn-service {
   background-color: #005257;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 2rem;
   font-size: 12px;
   font-family: "Fira Code", monospace;
@@ -319,7 +319,7 @@ footer {
 .button-controls .btn-contact {
   background-color: #029359;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 2rem;
   font-size: 12px;
   font-family: "Fira Code", monospace;
@@ -331,8 +331,8 @@ footer {
 }
 
 .button-controls .btn-contact:hover {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
-  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f8fbde), color-stop(#f6fade), color-stop(#f4f9df), color-stop(#f2f8df), color-stop(#f0f7df), color-stop(#edf7da), color-stop(#eaf7d5), color-stop(#e6f7d1), color-stop(#def9c7), color-stop(#d5fabe), color-stop(#cafcb6), to(#bdfeaf));
+  background-image: linear-gradient(to right top, #f8fbde, #f6fade, #f4f9df, #f2f8df, #f0f7df, #edf7da, #eaf7d5, #e6f7d1, #def9c7, #d5fabe, #cafcb6, #bdfeaf);
 }
 
 .home-hero-data {
@@ -346,16 +346,6 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  background-color: #123;
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  background-color: #123;
 }
 
 .problem-outline {
@@ -413,7 +403,7 @@ footer {
           align-items: center;
   text-align: center;
   padding: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .problem-outline .problem .thumbnail .decorated {
@@ -628,7 +618,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #19C17E;
+  background-color: #19c17e;
   padding: 0;
   margin-top: 10px;
   color: #030303;
@@ -654,7 +644,7 @@ footer {
 }
 
 .value-proposition .vp .vp-thumbnail .vp-decorated {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .training {
@@ -702,15 +692,15 @@ footer {
 }
 
 .training .training-brief-umbrella {
-  background-color: #CDCDFA;
+  background-color: #cdcdfa;
 }
 
 .training .training-brief-participate {
-  background-color: #C2FCE5;
+  background-color: #c2fce5;
 }
 
 .training .training-brief-partneres {
-  background-color: #FFDEE2;
+  background-color: #ffdee2;
 }
 
 .about-us {
@@ -790,7 +780,7 @@ footer {
   border-radius: 2rem;
   margin: 2rem;
   background-color: #005257;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about-item {
@@ -798,7 +788,7 @@ footer {
 }
 
 .about-wecommit .about-stone {
-  background-color: #FFDEE2;
+  background-color: #ffdee2;
   color: #005257;
 }
 
@@ -880,7 +870,7 @@ footer {
 }
 
 .btn-submit {
-  background-color: #19C17E;
+  background-color: #19c17e;
   color: #fff;
   border-radius: 2rem;
   min-width: 45%;
@@ -1145,7 +1135,7 @@ body {
 
 a {
   font-family: "Fira Code", monospace;
-  color: #19C17E;
+  color: #19c17e;
 }
 
 a:hover {

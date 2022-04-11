@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 .header-content {
-  color: #030303;
   overflow: auto;
   z-index: 6;
   padding-left: 50px;
@@ -12,7 +11,8 @@
   text-align: center;
   overflow: auto;
   z-index: 6;
-  background-color: #FFFFFF;
+  background-color: #005257;
+  color: #FFFFFF !important;
   /* Color of 3 lines */
   /* when navigation is clicked */
   /* State when the navbar is collapsed */
@@ -31,7 +31,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #029359;
+  background: #FFFFFF;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -126,7 +126,7 @@
 }
 
 .header-content .nav-link {
-  color: #030303 !important;
+  color: #FFFFFF !important;
   font-family: "Fira Code", monospace;
 }
 
