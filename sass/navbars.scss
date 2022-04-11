@@ -1,0 +1,126 @@
+@import "variables";
+
+.header-content {
+  color: $color-black;
+  overflow: auto;
+  z-index: 6;
+  padding-left: 50px;
+  padding-right: 50px; 
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow: auto;
+  z-index: 6;
+
+  background-color: $color-white;
+
+  //manage the hamburger
+  .navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+
+    .toggler-icon {
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      background: $color-secondary;
+      border-radius: 1px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: 0.25s ease-in-out;
+      border-radius: 1px;
+    }
+
+    .middle-bar {
+      margin-top: 0px;
+      margin-left: 4px;
+    }
+  }
+
+  //clear out all default decorative button styles
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    position: relative;
+  }
+
+  /* Color of 3 lines */
+
+  .navbar-toggler.collapsed .toggler-icon {
+    background-image: $color-gradient;
+  }
+
+  /* when navigation is clicked */
+
+  .navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+  }
+
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+  }
+
+  .navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
+  }
+
+  /* State when the navbar is collapsed */
+
+  .navbar-toggler.collapsed .top-bar {
+    position: absolute;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    filter: alpha(opacity=0);
+  }
+
+  .navbar-toggler.collapsed .bottom-bar {
+    position: absolute;
+    top: 10px;
+    margin-left: 8px;
+    transform: rotate(0deg);
+  }
+
+  // item styles
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+  .navbar-nav {
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+  }
+
+  .nav-link {
+    color: $color-black !important;
+    font-family: $fira-font-family;
+  }
+
+  .nav-item:hover {
+    color: $color-primary !important;
+    border-bottom: 2px solid #012393;
+  }
+}

@@ -1,0 +1,78 @@
+@import "variables";
+
+.problem-outline {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .problem {
+    min-height: 600px;
+    max-width: 350px;
+
+    .thumbnail {
+      height: 200px;
+      max-height: 200px;
+      overflow: hidden; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      color: $color-white;
+
+      .decorated {
+        font-family: $ds-font-family !important;
+        text-align: center !important;
+        padding: 15% auto;
+      }
+    }
+
+    
+  }
+
+
+
+.problem-1 {
+  background-image: url("../images/homesplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.problem-2 {
+  background-image: url("../images/bizwoman.jpg");
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+//linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+.problem-3 {
+  background-image: url("../images/schoolboy.jpg");
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+}

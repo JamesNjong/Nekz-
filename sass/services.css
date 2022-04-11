@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+.services-outline {
+  padding-top: 60px;
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.services-outline .section-header-service {
+  padding-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services-outline a {
+  color: #005257;
+}
+
+.services-outline .service-ads {
+  margin-top: 30px;
+}
+
+.services-outline .service-ads p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.services-outline .service-ads h2 {
+  margin-top: 10px;
+}
+
+.services-outline .service-ads .service-row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services-outline .service-ads .resume-and-cover-service {
+  max-width: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 150px;
+}
+
+.services-outline .service-ads .workshops-service {
+  max-width: 400px;
+  margin: 10px;
+}
+
+.service-item {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service-item-text {
+  text-align: justify;
+}
+
+.jobhunting {
+  background-color: #f7f5f5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.workshops {
+  background-color: antiquewhite;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.schoolytics {
+  background-color: #ecffeb;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*# sourceMappingURL=services.css.map */

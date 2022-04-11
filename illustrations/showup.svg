@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1226.293" height="1115.843" viewBox="0 0 1226.293 1115.843">
+  <defs>
+    <filter id="windows-VMPhyAoVqqk-unsplash" x="296.675" y="113.256" width="890.331" height="889.33" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_283" x="109.45" y="0" width="1116.843" height="1115.843" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_284" x="71.128" y="85.065" width="946.712" height="945.712" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_285" x="38.2" y="163.304" width="790.235" height="789.235" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_286" x="0" y="245.218" width="626.406" height="625.406" filterUnits="userSpaceOnUse">
+      <feOffset dx="23" dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_210" data-name="Group 210" transform="translate(-16.707 -117.578)">
+    <g id="Group_209" data-name="Group 209" transform="translate(16.707 117.579)">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#windows-VMPhyAoVqqk-unsplash)">
+        <ellipse id="windows-VMPhyAoVqqk-unsplash-2" data-name="windows-VMPhyAoVqqk-unsplash" cx="408.354" cy="408.353" rx="408.354" ry="408.353" transform="translate(1155.01 928.84) rotate(177)" fill="#005257"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_283)">
+        <ellipse id="Ellipse_283-2" data-name="Ellipse 283" cx="390.729" cy="390.728" rx="390.729" ry="390.728" transform="translate(546.44 0) rotate(34)" fill="#19c17e"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_284)">
+        <ellipse id="Ellipse_284-2" data-name="Ellipse 284" cx="329.453" cy="329.452" rx="329.453" ry="329.452" transform="translate(439.58 85.06) rotate(34)" fill="#6bd899"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_285)">
+        <ellipse id="Ellipse_285-2" data-name="Ellipse 285" cx="273.094" cy="273.094" rx="273.094" ry="273.094" transform="translate(343.62 163.3) rotate(34)" fill="#b0e5ae"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_286)">
+        <ellipse id="Ellipse_286-2" data-name="Ellipse 286" cx="214.088" cy="214.087" rx="214.088" ry="214.087" transform="translate(239.43 245.22) rotate(34)" fill="#3b9155"/>
+      </g>
+    </g>
+    <text id="Dropstori" transform="translate(134 656)" fill="#fffbeb" font-size="67" font-family="Fira Code"><tspan x="0" y="0">Dropstori</tspan></text>
+    <text id="Showup_Different" data-name="Showup Different" transform="translate(157 686)" fill="#fffbeb" font-size="44" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="45">showup different</tspan></text>
+  </g>
+</svg>

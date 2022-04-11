@@ -1,0 +1,97 @@
+@import "variables"; 
+
+.footer-wrapper{
+ padding:10px;
+ color: $color-white;
+ display: grid;
+ grid-template-columns: 3fr 5fr 1fr;
+ justify-content: center;
+ align-items: center;
+ gap: 10;
+ width: 100vw; 
+}
+
+footer{
+ background-color: $color-primary;
+}
+
+
+.foot-center-cells{
+   display:grid; 
+   grid-template-columns: repeat(3, 1fr);
+   font-size: 13px;
+
+   .foot-link{
+    text-decoration: none;
+    color: $color-white !important;
+    cursor: pointers;
+   }
+}
+
+.foot-right-cell{
+ display:flex; 
+ justify-content: center;
+ align-items: center; 
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+  .footer-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+
+  .foot-left-cells{
+   display:flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   hr{
+    width: 100%;
+   }
+  }
+  
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .footer-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+
+  .foot-left-cells{
+   display:flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   hr{
+    width: 100%;
+   }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

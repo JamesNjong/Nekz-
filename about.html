@@ -4,216 +4,298 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="description" content="We help job seekers find words to tell compelling narratives about who they are, what they know and why they are the best candidates for the jobs they seek. Work with us for your interviews and all job hunting kits.">
+  <meta name="description" content="We help job seekers find words to tell compelling narratives about who they are, what they know and why they are the best candidates for the jobs they seek. Work with us for your interviews and all job hunting kits.">
 
 
 <link rel="icon" type="image/png" sizes="32x32" href="./images/tab-icon.png">
 
- <title>dropstori</title>
+ <title>Dropstori</title>
 
 
 <!--Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <!-- Custome style sheet-->
-<link rel="stylesheet" href="./styles/style.css">
-
+<link rel="stylesheet" href="./styles/main.css">
 
 </head>
-
 <body>
 
-<div class="wrapper container-fluid">
-<div class="row">
+  <!-- Header content -->
+<header class="header-content container-fluid">
 
-    <div class="left-container col-xl-4 col-12">
-
-    <!-- Header content -->
-    <header class="header-content container-fluid">
-
-    <nav class="navbar navbar-expand-md navbar-light  ">
-
+  <nav class="navbar navbar-expand-md navbar-light ">
 
     <!-- Brand -->
     <div class="brand d-flex justify-content-center align-items-center">
-    <img src="./images/drop-icon.svg" width="70"  alt="name-logo" class="img-fluid my-2" > 
+      <img src="./icons/brand.svg" width="50"  alt="name-logo" class="img-fluid my-2" > 
 
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end px-4" id="collapsibleNavbar">
+
+        <ul class="navbar-nav  justify-content-end align-items-center">
+    
+          <li class="nav-item active"><a href="./index.html" class="nav-link px-2 ">Home</a></li>
+    
+          <li class="nav-item"><a href="#home" class="nav-link px-2">About<a></li>
+
+          <li class="nav-item"><a href="./services.html" class="nav-link px-2 ">Services</a></li>
+
+          <li class="nav-item"><a href="#contactus" class="nav-link px-2 ">Contact</a></li>
+                    
+        </ul>
+    
+      </div> 
     </div>
 
-
-<!-- Toggler/collapsable Button -->
-<button class="navbar-toggler collapsed d-flex d-lg-none d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Toggler/collapsable Button -->
+    <button class="navbar-toggler collapsed d-flex d-lg-none d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     
-    <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon top-bar"></span>
                     
-    <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
                     
-    <span class="toggler-icon bottom-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
                 
-</button>
+    </button>
 
-<!-- Navbar links -->
-<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-
-<ul class="navbar-nav  justify-content-end align-items-center">
-
-
-    <li class="nav-item d-lg-none d-md-none"><a href="./index.html" class="nav-link px-2 ">Home</a></li>
     
-    <li class="nav-item"><a href="./about.html" class="nav-link px-2">About<a></li>
 
-    <li class="nav-item"><a href="./training.html" class="nav-link px-2 ">Our Training</a></li>
+  </nav>
+
+</header>
+ <!-- hero div-->
+<section class=" row hero-section about-hero" id="home">
+
+  <div class="home-hero-data">
+    <h1 class="headline">We are the fall back plan, people come to us when they can't journey on their on. </h1>
+
+    <p class=" py-6">Every step of the way we are focused on knowing what makes the client unique so we can help them tell compelling narratives about this uniqueness. This helps us connect with people for nothing but the opportunity to uncover deep underlying beauty in personality, and these connections are why we exist. Loving what we do for the benefit of knowing  new people.  </p>
+
+    <div class="button-controls py-4">
+      <a href="./services.html" class="btn btn-service">OUR SERVICES</a>
+
+      <a href="#contactus" class="btn btn-contact ">CONTACT US</a>
+    </div>    
+  </div>
+
+  <div class="home-hero-image d-none d-lg-inline-flex d-flex justify-content-center align-items-center">
+    <img src="./illustrations/homecircles.svg" alt="job seeker" loading="lazy" width="300" class="img-fluid">      
+  </div>
+
+</section>
+
+
+
+<div class="about-item about-whowe">
+
+<div class="container-fluid">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-4 col-md-6 justify-content-center align-items-center">
+      <div class="card shadow  about-stone">
+        <p class="about-stone-text display-5 text-center">who we are</p>
+      </div>
+    </div>
+
+    <div class="col-lg-8 col-10 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-5">
+          <div class="col service-item-text">At our core, we are storytellers. We have an overwhelming ability to communicate in the most relatable fashion, the intricate details about the beauty and uniqueness of everyone we encounter. Our wording of events and hope, positions the people who trust us for untold success. </div>
         
-    <li class="nav-item"><a href="./forschools.html" class="nav-link px-2 ">For Schools</a></li>
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./services.html" class="nav-link px-2 ">Our Services</a></li>
+          <div class="col service-item-text">In the hands of job seekers, what we offer is a chance to make their journey to their next employment opportunity a believable tale of hard work and dedication to shared values. We help them, connect with recruiters and show them a path to the words that highlight their uniqueness. </div>
+         
 
-    <li class="nav-item d-lg-none d-md-none"><a href="./contactus.html" class="nav-link px-2 ">Contact us</a></li>
-        
-                        
-</ul>
-    
-</div> 
+          <div class="col service-item-text">For every entrepreneur, we are the unsung, unheard, and yet unmatched competitive advantage. We are the reason they walk into a room, confident of their ability to convince the investor or would be customer of the value of their product.  We help them make pitch decks that cannot be ignored, and phrase enticing value propositions.</div>
+         
 
-</nav>
-
-    </header>
- 
-
-    <div class="body-elements px-4">
-        <h1 class="headline">We are a one time purchase, and we last a life time. </h1>
-
-        <p class=" py-6">Every step of the way we are focused on knowing what makes the client unique so we can help them tell compelling narratives about who they are. This helps us connect with people, and these connections are why we exist. Loving what we do for the benefit of knowing  new people.  </p>
-
-        <div class="button-controls py-4">
-        <a href="./services.html" class="btn btn-service">OUR SERVICES</a>
-
-        <a href="./contactus.html" class="btn btn-contact ">CONTACT US</a>
+          <div class="col service-item-text">We are the agency of choice for anyone who nurses thoughts of an easy access to opportunity. We achieve our mission to use storytelling as a bridge to access opportunities in the world markets, by teaching groups in schools or after school, and by consulting for individuals who come to us.  </div>
         </div>
-    </div>
 
-    <span></span>
-    </div>
-
-    <div class="col-xl-4 d-md-none">
-      <div class="nothing-div"></div>
-    </div>
-
-    <div class="right-container py-5  col-xl-8">
-    <div class="container">
-
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row   justify-content-center align-items-center g-5 py-5">
-       
-
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-1a shadow-sm p-4">
-
-            <p class="card-text display-6">who we are</p>
-
-          </div>
-          
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para">We are an storytelling agency, working with job seekers to help them find the right words that tell compelling narratives about who they are, and why they are great candidates for the jobs they seek. We teach exciting courses on employment and career development and provide support at all stages of the job hunting process. We equally work with entrepreneurs looking to improve the communication around their business and project.</p>
-          </div>
-
-          
-
-        </div>
       </div>
-
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row flex-lg-row-reverse justify-content-lg-end align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-2a shadow-sm p-4">
-
-            <p class="card-text display-6">why we do it</p>
-
-
-          </div>
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para">We believe everyone is not cut out to be an entrepreneur, and financial freedom can also be achieved by working a nine to five. More so, for everyone with a great project or idea, we hate to hear that they failed because they could not move investors or clients. Our drive comes from knowing that schools are not set up to teach people how to hunt for opportunities, and that this gap creates enormous challenges for recent graduates and entrepreneurs who though talented still cannot find gainful employment within six months of graduation.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row justify-content-center align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-3a shadow-sm p-4">
-
-            <p class="card-text display-6"> what matters</p>
-
-
-          </div>
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para">Our focus as an organization is people. Helping them keep their dignity while navigating the challenges of job hunting or capital sourcing is top on our priority list. Along the way, we cherish creating memories with them, seeing the joy that comes with finding a job or closing a new deal, and knowing we contributed, is all that matters to us. We put people first and profit next, challenging ourselves to journey with our clients through the toughest times, for the pleasure of the hope that underscores our human existence.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container col-xxl-12 px-4 py-2">
-        <div class="row flex-lg-row-reverse justify-content-lg-end align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6 justify-content-center align-items-center">
-            <div class="word-card word-card-4a shadow-sm p-4">
-
-            <p class="card-text display-6">when we commit</p>
-
-
-          </div>
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
-            <p class="word-para">For every client or client group we work with, we take on the problems of the group with the conviction that for all who put in the work, there is only one outcome and we do not rest until we get them to where they belong. Thats why we have world class client follow-up schemes, focusing on providing the support needed to stay motivated even when nothing seems to be working out.</p>
-          </div>
-        </div>
-      </div>
- 
     </div>
-  </div> 
-
+  </div>
 </div>
 
 
 </div>
 
+<div class="about-item about-whywe">
+
+<div class="container-fluid">
+  <div class="row d-flex flex-lg-row-reverse justify-content-center align-items-center">
+    <div class="col-lg-4 col-md-10 justify-content-center align-items-center">
+      <div class="card shadow  about-stone">
+        <p class="about-stone-text display-5 text-center">why we do it</p>
+      </div>
+    </div>
+
+    <div class="col-lg-8 col-10 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-5">
+          <div class="col service-item-text">We believe everyone is not cut out to be an entrepreneur, and financial freedom can also be achieved by working a nine to five. We thus help people find employment opportunities that reward and value their commitment and effort. Trusting that the livelihoods of the people we work with and the ones they care dearly for, will be improves if they tell compelling naratives about why they want the job and why they are perfect candidates.</div>
+        
+
+          <div class="col service-item-text">Our drive comes from knowing that schools are not set up to teach people how to job hunt. Students are taught to master the skills needed for the job, and school assumes finding the job can be figured out independently. Yet experience counters this, and people infact need more help than we have fashioned our schools to give. What we do, we do for the sole purpose of filling this gap, the gap between skill and the opportunity to use it.</div>
+         
+
+          <div class="col service-item-text">For the entrepreneurs, the ones with the courage to embrace the beauty and uncertainty that running your venture presents, we provide a service that helps them access more financing, and when it serves them, we help them pitch to customers as well.</div>
+         
+
+          <div class="col service-item-text">Our desire is to see that entrepreneurs can communicate passionately, the value they provide. We a keen on helping them bring aboard the people with access to funds they need, with much more ease, and eloquence. The kind of ease only a good and unforgettable story can guarantee. </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
 
  
+<div class="about-item about-whatmatters">
 
-<footer class="d-lg-none d-md-none">
-       <div class="foot-brandiv">
-            <img src="./images/drop-icon.svg" alt="drop-icon" width="80px" class="img-fluid">
-            <p class="py-2 ssan"><small>showup different.</small></p>
-          </div>
+<div class="container-fluid">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-4 col-md-6 justify-content-center align-items-center">
+      <div class="card shadow  about-stone">
+        <p class="about-stone-text display-5">what matters</p>
+      </div>
+    </div>
 
-          <div class="foot-link-grid-1"> 
-                <small class="foot-par"><a href="./index.html" class="foot-link ">Home</a></small>
-    
-                <small class="foot-par"><a href="./services.html" class="foot-link  px-2">Services<a></small>
+    <div class="col-lg-8 col-10 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-5">
+          <div class="col service-item-text">As an organization, our focus is on people. Helping them preserve their dignity, while navigating the challenges of job hunting is our number one priority. Make no mistake, we want to be profitable, but our profit must come from job seekers and entrepreneurs living their dreams. If we were not so inlove with storytelling, we would have been a happiness agency. A place of hope for people who struggle with finding and gaining rights to the finest opportunities their skills deserve, those for which your heart beats.</div>
+        
 
-                <small class="foot-par"><a href="./training.html" class="foot-link px-2 ">Training<a></small> 
+          <div class="col service-item-text ">We cherish creating memories with the people we work with, seeing the joy that comes with earning more, and knowing we contributed in all that matters to us. On most days, we are not telling stories, we are uncovering  layers of beauty, from the strangers we call friends. For us, it is not enough that we help you gain access to opportunity, but that we build a friendly space for you to uncover your unique value proposition which you can leverage to navigate the rest of your career. </div>
+         
 
-                <small class="foot-par"><a href="./forschools.html" class="foot-link px-2 ">For Schools<a></small> 
+          <div class="col service-item-text d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil non, eaque necessitatibus est vero tempora fuga recusandae, ipsa quae voluptates dolores aperiam at iure quaerat voluptatum ea. Sint, ab.</div>
+         
 
-                <small class="foot-par"><a href="./contactus.html" class="foot-link  ">Contact us<a></small>    
+          <div class="col service-item-text d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil non, eaque necessitatibus est vero tempora fuga recusandae, ipsa quae voluptates dolores aperiam at iure quaerat voluptatum ea. Sint, ab.</div>
+        </div>
 
-                
-          </div>
-</footer>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+</div>
 
-<!--bootstrap JS-->
+<div class="about-item about-wecommit">
+
+<div class="container-fluid">
+  <div class="row d-flex flex-lg-row-reverse justify-content-center align-items-center">
+    <div class="col-lg-4 col-md-6 justify-content-center align-items-center">
+      <div class="card shadow  about-stone">
+        <p class="about-stone-text display-5 text-center">when we commit.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-8 col-10 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-5">
+          <div class="col service-item-text">Forevery client or client group we work with, we take on the problems of the group with the conviction that for all who put in the work, there is only one outcome and we do not rest until we get them to where they belong. Thats why we have world class client follow-up schemes, focusing on providing the support needed to stay motivated in the job hunt.</div>
+        
+
+          <div class="col service-item-text">Unlike most agencies, we do not promise heaven here on earth, we do not as much make you feel it will be effortless. Our truth, and our bond, is that we can get this done with easier than you can without us. We also share that, should poor storytelling and interview nerves be one of your night mares, then you will sleep easy every night from the first one you work with us. </div>
+         
+
+          <div class="col service-item-text d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil non, eaque necessitatibus est vero tempora fuga recusandae, ipsa quae voluptates dolores aperiam at iure quaerat voluptatum ea. Sint, ab.</div>
+         
+
+          <div class="col service-item-text d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil non, eaque necessitatibus est vero tempora fuga recusandae, ipsa quae voluptates dolores aperiam at iure quaerat voluptatum ea. Sint, ab.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+ 
+
+
+<div class=" contact-us" id="contactus">
    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <div class="container col-xxl-12 px-4 py-2">
+        <div class="row  d-flex flex-row-reverse justify-content-center align-items-center g-5 py-5">
+          
 
-<!-- Custom js file-->
-<script src="./js/main.js"></script>
+          <div class="col-10 col-sm-8 col-lg-6"> 
+            <h2 class="display-2 get-in-touch">Get in touch</h2>
+            <div class="contact-details"><p class="email text-md-center"><img src="./icons/email-svgrepo-com.svg" width="20" alt="email icon" class="img-fluid"> contact@dropstori.com</p>
+            <p class="phone text-md-center"><img src="./icons/whatsapp-svgrepo-com.svg" width="20" alt="email icon" class="img-fluid"> +237 658 298 215</p>
+            </div>
+            <hr>
+            <p class="service-para ">The first step to standing out is making a concious effort to get the help you need to fix the flaws in how you showup. At dropstori we special in helping people transition into more confident versions of themselves. Versions that make it easy for them to earn the trust of recruiters, investors and customers. If this is something you need, then we are the people to get it to you.</p>
+          </div>
+
+          <div class="col-10 col-sm-6 col-lg-6 justify-content-center align-items-center">
+           <div class="login-box">
+              <h2>Start here !</h2>
+                  <form>
+                    <div class="user-box">
+                      <label>Your name</label>
+                        <input type="text" name="" required="true">
+                        
+                    </div>
+                    <div class="user-box">
+                      <label>Email</label>
+                        <input type="email" name="" required="true">
+                    </div>
+
+                    <div class="user-box">
+                      <label for="">Message</label>
+                      <textarea type="text" name="" id="" cols="35" rows="3"></textarea>
+                    </div>
+
+                    <button class="btn-submit" href="#"> 
+                        Send
+                    </a>
+                  </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</div>
+
+
+<!-- Footer -->
+ 
+
+<footer class="container-fluid">
+    <div class="footer-wrapper">
+     <!--Left cells-->
+     <div class="foot-left-cells">
+      <img src="./icons/brand.svg" alt="brand image" width="90" class="img-fluid brand-footer">
+      <p class="slogan-footer">Showup different</p>
+      <hr>
+     </div>
+
+     <!--Center cells-->
+     <div class="foot-center-cells">
+
+      <p class="foot-link-para"><a href="./index.html" class="foot-link">Home</a></p>
+      <p class="foot-link-para"><a href="#home" class="foot-link">About us</a></p>
+      <p class="foot-link-para"><a href="./services.html" class="foot-link">Services</a></p>
+      <p class="foot-link-para"><a href="./index.html#training" class="foot-link">Training</a></p>
+      <p class="foot-link-para"><a href="./services.html/#schools" class="foot-link">Schools</a></p>
+      <p class="foot-link-para"><a href="./entrepreneurs.html" class="foot-link">Entrepreneurs</a></p>
+
+     </div>
+
+     <div class="foot-right-cell">
+      <a href="#home" class="upbutton-link"><img src="./icons/upbutton.svg" alt="up arrow" width="20" class="img-fluid"></a>
+     </div>
+    </div>
+</footer>
 </body>
 </html>

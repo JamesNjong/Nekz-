@@ -1,0 +1,61 @@
+@import "variables";
+
+.hero-section {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding-left: 40px;
+  margin: 0;
+
+  .headline {
+    color: $color-primary !important;
+    font-family: $exo-font-family;
+  }
+}
+
+.button-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+
+  .btn-service {
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 2rem;
+    font-size: 12px;
+    font-family: $fira-font-family;
+    text-align: center;
+    height: fit-content;
+    width: 150px;
+  }
+
+  .btn-service:hover {
+    background-color: $color-secondary;
+  }
+
+  .btn-contact {
+    background-color: $color-secondary;
+    border: none;
+    color: $color-white;
+    border-radius: 2rem;
+    font-size: 12px;
+    font-family: $fira-font-family;
+    text-align: center;
+    height: fit-content;
+    width: 150px;
+  }
+
+  .btn-contact:hover {
+    background-image: $color-gradient;
+  }
+}
+
+.home-hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

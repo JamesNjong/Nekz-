@@ -1,0 +1,108 @@
+@import "variables";
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10%;
+
+  background-color: rgb(221, 229, 237);
+  .about-head {
+    margin-bottom: 40px;
+  }
+
+  .about-col-holder {
+    width: 100%;
+    p {
+      max-width: 100%;
+    }
+  }
+
+  .about-subhead {
+    font-family: $ds-font-family;
+    color: $color-primary;
+    font-size: 30px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .about-col-holder {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .about-col-holder {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+//about page
+.about-stone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 320px;
+  width: 220px;
+
+  padding: 20px;
+  border: none;
+
+  border-radius: 2rem;
+  margin: 2rem;
+
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.about-item {
+  padding: 5%;
+}
+
+.about-wecommit {
+  .about-stone {
+    background-color: $color-partnered;
+    color: $color-primary;
+  }
+}
+
+.about-whatmatters {
+  .about-stone {
+    background-color: #d0d8ec;
+    color: $color-primary;
+  }
+}
+
+.about-whywe {
+  .about-stone {
+    background-color: #eaecd0;
+    color: $color-primary;
+  }
+}
+
+.about-whowe {
+  .about-stone {
+    background-color: #c4f4f0;
+    color: $color-primary;
+  }
+}
+
+.about-hero {
+  padding: 5%;
+}

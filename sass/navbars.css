@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+.header-content {
+  color: #030303;
+  overflow: auto;
+  z-index: 6;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow: auto;
+  z-index: 6;
+  background-color: #FFFFFF;
+  /* Color of 3 lines */
+  /* when navigation is clicked */
+  /* State when the navbar is collapsed */
+}
+
+.header-content .navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.header-content .navbar-toggler .toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #029359;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  border-radius: 1px;
+}
+
+.header-content .navbar-toggler .middle-bar {
+  margin-top: 0px;
+  margin-left: 4px;
+}
+
+.header-content .navbar-toggler,
+.header-content .navbar-toggler:focus,
+.header-content .navbar-toggler:active,
+.header-content .navbar-toggler-icon:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+  position: relative;
+}
+
+.header-content .navbar-toggler.collapsed .toggler-icon {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
+  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+}
+
+.header-content .navbar-toggler .top-bar {
+  top: inherit;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.header-content .navbar-toggler .middle-bar {
+  opacity: 0;
+  top: inherit;
+  filter: alpha(opacity=0);
+}
+
+.header-content .navbar-toggler .bottom-bar {
+  top: inherit;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.header-content .navbar-toggler.collapsed .top-bar {
+  position: absolute;
+  top: 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.header-content .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  filter: alpha(opacity=0);
+}
+
+.header-content .navbar-toggler.collapsed .bottom-bar {
+  position: absolute;
+  top: 10px;
+  margin-left: 8px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.header-content .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: start;
+}
+
+.header-content .navbar-nav {
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+}
+
+.header-content .nav-link {
+  color: #030303 !important;
+  font-family: "Fira Code", monospace;
+}
+
+.header-content .nav-item:hover {
+  color: #005257 !important;
+  border-bottom: 2px solid #012393;
+}
+/*# sourceMappingURL=navbars.css.map */

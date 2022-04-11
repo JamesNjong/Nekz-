@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+.hero-section {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  padding-top: 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.hero-section .headline {
+  color: #005257 !important;
+  font-family: "Exo 2", sans-serif;
+}
+
+.button-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4px;
+}
+
+.button-controls .btn-service {
+  background-color: #005257;
+  color: #FFFFFF;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-family: "Fira Code", monospace;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 150px;
+}
+
+.button-controls .btn-service:hover {
+  background-color: #029359;
+}
+
+.button-controls .btn-contact {
+  background-color: #029359;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-family: "Fira Code", monospace;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 150px;
+}
+
+.button-controls .btn-contact:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
+  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+}
+
+.home-hero-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=herosections.css.map */

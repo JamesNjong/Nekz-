@@ -1,0 +1,96 @@
+@import "variables";
+
+.contact-us {
+  min-height: 100vh;
+}
+
+.get-in-touch {
+  font-family: $exo-font-family;
+}
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  background: $color-primary;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box textarea {
+  background-color: transparent;
+  outline: none;
+  background-color: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  max-lines: 6;
+  color: #fff;
+  max-width: 100%;
+}
+
+.btn-submit {
+  background-color: $color-accent;
+  color: #fff;
+  border-radius: 2rem;
+  min-width: 45%;
+  border: none;
+  margin-top: 30px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .login-box {
+    width: 98%;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .login-box {
+    width: 98%;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="111" viewBox="0 0 62 111">
+  <g id="Group_188" data-name="Group 188" transform="translate(-1697.5 -15659)">
+    <g id="Rectangle_576" data-name="Rectangle 576" transform="translate(1697.5 15659)" fill="#62be99" stroke="#707070" stroke-width="1">
+      <rect width="62" height="111" rx="31" stroke="none"/>
+      <rect x="0.5" y="0.5" width="61" height="110" rx="30.5" fill="none"/>
+    </g>
+    <g id="Backward_arrow" data-name="Backward arrow" transform="translate(1746.5 15697) rotate(90)">
+      <path id="Path_10" data-name="Path 10" d="M18,0,14.727,3.273l12.39,12.39H0v4.675H27.117l-12.39,12.39L18,36,36,18Z" transform="translate(36 36) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
