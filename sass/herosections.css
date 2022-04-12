@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 .hero-section {
-  min-height: 100vh;
+  min-height: 90vh;
   min-width: 100vw;
   overflow-x: hidden;
   padding-top: 70px;
@@ -30,7 +30,7 @@
 
 .button-controls .btn-service {
   background-color: #005257;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 2rem;
   font-size: 12px;
   font-family: "Fira Code", monospace;
@@ -48,7 +48,7 @@
 .button-controls .btn-contact {
   background-color: #029359;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 2rem;
   font-size: 12px;
   font-family: "Fira Code", monospace;
@@ -60,8 +60,8 @@
 }
 
 .button-controls .btn-contact:hover {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
-  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f8fbde), color-stop(#f6fade), color-stop(#f4f9df), color-stop(#f2f8df), color-stop(#f0f7df), color-stop(#edf7da), color-stop(#eaf7d5), color-stop(#e6f7d1), color-stop(#def9c7), color-stop(#d5fabe), color-stop(#cafcb6), to(#bdfeaf));
+  background-image: linear-gradient(to right top, #f8fbde, #f6fade, #f4f9df, #f2f8df, #f0f7df, #edf7da, #eaf7d5, #e6f7d1, #def9c7, #d5fabe, #cafcb6, #bdfeaf);
 }
 
 .home-hero-data {
@@ -75,5 +75,22 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 660px) {
+  .hero-section {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .hero-section {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+  }
 }
 /*# sourceMappingURL=herosections.css.map */

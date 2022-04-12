@@ -11,8 +11,8 @@
 .header-content {
   overflow: auto;
   z-index: 6;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -271,7 +271,7 @@ footer {
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 .hero-section {
-  min-height: 100vh;
+  min-height: 90vh;
   min-width: 100vw;
   overflow-x: hidden;
   padding-top: 70px;
@@ -346,6 +346,23 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 660px) {
+  .hero-section {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .hero-section {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+  }
 }
 
 .problem-outline {
@@ -492,7 +509,7 @@ footer {
   margin-top: 10px;
 }
 
-.services-outline .service-ads .service-row-1 {
+.services-outline .service-ads .service-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,6 +570,45 @@ footer {
   background-color: #ecffeb;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 660px) {
+  .service-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .service-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .value-proposition {
