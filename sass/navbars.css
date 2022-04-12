@@ -2,8 +2,8 @@
 .header-content {
   overflow: auto;
   z-index: 6;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
   overflow: auto;
   z-index: 6;
   background-color: #005257;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   /* Color of 3 lines */
   /* when navigation is clicked */
   /* State when the navbar is collapsed */
@@ -31,7 +31,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -59,8 +59,8 @@
 }
 
 .header-content .navbar-toggler.collapsed .toggler-icon {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#005247), color-stop(#006d58), color-stop(#008867), color-stop(#00a474), to(#19c17e));
-  background-image: linear-gradient(to right top, #005247, #006d58, #008867, #00a474, #19c17e);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f8fbde), color-stop(#f6fade), color-stop(#f4f9df), color-stop(#f2f8df), color-stop(#f0f7df), color-stop(#edf7da), color-stop(#eaf7d5), color-stop(#e6f7d1), color-stop(#def9c7), color-stop(#d5fabe), color-stop(#cafcb6), to(#bdfeaf));
+  background-image: linear-gradient(to right top, #f8fbde, #f6fade, #f4f9df, #f2f8df, #f0f7df, #edf7da, #eaf7d5, #e6f7d1, #def9c7, #d5fabe, #cafcb6, #bdfeaf);
 }
 
 .header-content .navbar-toggler .top-bar {
@@ -126,7 +126,7 @@
 }
 
 .header-content .nav-link {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   font-family: "Fira Code", monospace;
 }
 
